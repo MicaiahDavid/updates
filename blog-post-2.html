@@ -16,13 +16,15 @@
             font-family: 'Playfair Display', serif;
         }
     </style>
+    <script src="data.js" defer></script>
+    <script src="load-content.js" defer></script>
 </head>
 <body class="bg-gradient-to-br from-blue-100 via-pink-50 to-purple-100 min-h-screen">
 
     <!-- Hero Image -->
     <section class="relative w-full h-[480px] md:h-[620px] overflow-hidden">
         <div class="absolute inset-0">
-            <img src="images/unnamed (1).jpg" alt="Micaiah David" class="w-full h-full object-cover object-[80%_30%]">
+            <img src="images/unnamed (1).jpg" alt="Micaiah David" class="w-full h-full object-cover object-[80%_30%]" data-hero="image">
             <div class="absolute inset-0 bg-gradient-to-b from-black/40 via-black/20 to-black/50"></div>
         </div>
     </section>
@@ -38,15 +40,15 @@
                     <div class="space-y-3 text-sm text-gray-600">
                         <div class="flex justify-between items-center py-2 border-b border-gray-100">
                             <span>Diagnosis</span>
-                            <span class="font-medium text-gray-500">Retinoblastoma</span>
+                            <span class="font-medium text-gray-500" data-sidebar="diagnosis">Retinoblastoma</span>
                         </div>
                         <div class="flex justify-between items-center py-2 border-b border-gray-100">
                             <span>MRI Results</span>
-                            <span class="font-medium text-green-600">Positive Preliminary</span>
+                            <span class="font-medium text-green-600" data-sidebar="mri-results">Positive Preliminary</span>
                         </div>
                         <div class="flex justify-between items-center py-2 border-b border-gray-100">
                             <span>Chemotherapy Start</span>
-                            <span class="font-medium text-gray-500">6/16</span>
+                            <span class="font-medium text-gray-500" data-sidebar="chemo-start">6/16</span>
                         </div>
                     </div>
                 </div>
@@ -62,11 +64,12 @@
                         Back to Updates
                     </a>
 
-                    <h1 class="font-serif text-4xl md:text-5xl font-bold text-gray-800 mb-2">How We're Doing</h1>
-                    <p class="text-gray-500 text-lg mb-8">June 11, 2026</p>
+                    <h1 class="font-serif text-4xl md:text-5xl font-bold text-gray-800 mb-2" data-post="title">How We're Doing</h1>
+                    <p class="text-gray-500 text-lg mb-8" data-post="date">June 11, 2026</p>
 
                     <div class="bg-white rounded-2xl shadow-lg p-8 md:p-12">
                         <div class="prose prose-lg max-w-none text-gray-700">
+                <div data-post="content">
                 <p class="mb-4">
                     What we're experiencing now is a calm before the storm. Of course we are in emotional turmoil, but as far as daily life goes, there's not a whole lot we can do for Micaiah until treatment is implemented. We've done a lot of thinking and processing. Last night, Jerusha and I got to finally sit down and connect over all this. We talked through how we were feeling, but almost more importantly, we resolved how we would handle these challenges going forward. We established some emotional groundwork for our relationship during this stressful season and created some additional communication norms for ourselves. We also resolved that we weren't (as much as we can help it) going to consider what the future holds. Spinning ourselves out emotionally about what challenges we may be facing in 15, 10, 5, or even 2 years from now will only take energy away from the focus needed for this moment and this step of treatment. We resolved to keep our focus on whatever step of treatment we're in and continue praying for miracles.
                 </p>
@@ -81,6 +84,7 @@
                 </p>
                 <p class="mb-4">
                     I say all this knowing that the future will be harder than I can imagine even now. I say this having already (within a week) discovered what it means to truly weep. When Micaiah loses his hair, becomes frail and sickly, and struggles to understand, it will add a new depth to my comprehension of grief. Days of struggle and pain are coming. Right now we are in a relative calm before that storm, struggling not to spiral into paralysis from all the what-ifs of the future. Please pray for us to faithfully raise our children and care for them in this challenging season.                </p>
+                </div>
             </div>
         </div>
                 </article>
@@ -91,7 +95,7 @@
                 <!-- How to Pray -->
                 <div class="bg-gradient-to-r from-amber-50 to-orange-50 rounded-2xl shadow-md p-6 border border-amber-200">
                     <h3 class="font-serif text-2xl font-bold text-amber-800 mb-4 text-center">How to Pray for Us Right Now</h3>
-                    <ul class="grid grid-cols-1 gap-3 text-gray-700">
+                    <ul class="grid grid-cols-1 gap-3 text-gray-700" data-sidebar="pray-list">
                         <li class="flex items-start gap-2">
                             <span class="text-amber-600 mt-1">•</span>
                             <span>MRI shows no spread beyond the eyes</span>
@@ -122,7 +126,7 @@
                 <!-- How to Give Thanks -->
                 <div class="bg-gradient-to-r from-green-50 to-emerald-50 rounded-2xl shadow-md p-6 border border-green-200">
                     <h3 class="font-serif text-2xl font-bold text-green-800 mb-4 text-center">How to Give Thanks with Us Right Now</h3>
-                    <ul class="grid grid-cols-1 gap-3 text-gray-700">
+                    <ul class="grid grid-cols-1 gap-3 text-gray-700" data-sidebar="thanks-list">
                         <li class="flex items-start gap-2">
                             <span class="text-green-600 mt-1">•</span>
                             <span>Micaiah's left eye changed color, alerting us to the issue</span>
