@@ -37,6 +37,9 @@ function updateSidebar(sidebar) {
     const mriResultsEl = document.querySelector('[data-sidebar="mri-results"]');
     if (mriResultsEl) mriResultsEl.textContent = sidebar.treatmentMilestones.mriResults;
     
+    const biopsyResultsEl = document.querySelector('[data-sidebar="biopsy-results"]');
+    if (biopsyResultsEl) biopsyResultsEl.textContent = sidebar.treatmentMilestones.biopsyResults;
+    
     const chemoStartEl = document.querySelector('[data-sidebar="chemo-start"]');
     if (chemoStartEl) chemoStartEl.textContent = sidebar.treatmentMilestones.chemotherapyStart;
     

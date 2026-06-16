@@ -10,13 +10,16 @@ const siteData = {
   "sidebar": {
     "treatmentMilestones": {
       "diagnosis": "Retinoblastoma",
-      "mriResults": "Positive Preliminary",
-      "chemotherapyStart": "6/16"
+      "mriResults": "Positive Preliminary; Awaiting Final Results",
+      "biopsyResults": "TBD",
+      "chemotherapyStart": "6/17"
     },
     "howToPray": [
       "That the MRI would show no spread beyond the eyes",
+      "That the biopsies would come back clear",
       "That both eyes can be saved and vision restored",
       "Strength and comfort for Micaiah",
+      "That treatment would be efficacious",
       "For Baby Boy's arrival (due June 20th) and good transition",
       "Strength and Understanding for Elias",
       "Strength for our family"
@@ -24,10 +27,55 @@ const siteData = {
     "howToGiveThanks": [
       "Micaiah's left eye changed color, alerting us to the issue",
       "Long term effects of treatment should be minimal",
-      "Micaiah is still acting like a normal energetic boy"
+      "Micaiah is still acting like a normal energetic boy",
+      "Preliminary MRI results ruled out tumor growth on the brain"
     ]
   },
   "blogPosts": [
+    {
+      "id": 4,
+      "title": "Schedule Updates",
+      "date": "June 16, 2026",
+      "excerpt": "The week leading up to Baby #3 (due Saturday, 6/20) is filling up quickly. It's quite remarkable, actually, how the timing of everything has worked out. Although we regret we didn't find out about Micaiah's tumors much earlier, it's hard not to see God making a way for us.",
+      "heroImage": "images/back porch.jpg",
+      "heroImagePosition": "center",
+      "color": "blue",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "The week leading up to Baby #3 (due Saturday, 6/20) is filling up quickly. It's quite remarkable, actually, how the timing of everything has worked out. Although we regret we didn't find out about Micaiah's tumors much earlier, it's hard not to see God making a way for us.  Inventory at the store was 6/4, which required a great deal of time for preparation. It was fortunate that the stress of inventory had passed before the greater stress of Micaiah's diagnosis came upon us. It's also fortunate that Micaiah's first round of treatments will be wrapped up just in time for Baby's due date. We would absolutely flip our lives upside down to make sure Micaiah gets the attention he needs, but so far the attention he needs has fit neatly within the big dates on our calendar. Even if some of that is due to the doctors' awareness of urgency and Jerusha's due date, we can't help but feel some of it is ordained too."
+        },
+        {
+          "type": "paragraph",
+          "text": "After the ophthalmologist diagnosed Micaiah with retinoblastoma, she was able to get us an appointment for an exam the very next day due to a cancellation. We were already appreciative of how quickly they were moving for us, but it wasn't until this week that we realized the ocular oncologist who did the exam was only at Seattle Children's two days each month—and the day we needed him to be there was one of them. Another canceled appointment created an opening for his MRI last week, which was yet another necessary step on the path toward treatment."
+        },
+        {
+          "type": "paragraph",
+          "text": "Then there's this week. Baby is due Saturday, but probably won't come until the middle of next week if Elias and Micaiah's birth/due dates are any indication. We have appointments four days this week leading up to that due date. Then (if my understanding is correct) we should have some recovery time for both Micaiah and Jerusha/Baby. Plans are in place for childcare when Jerusha goes into labor, and those plans include a contingency in case Baby decides to be early (as if anyone in our family would ever be early)."
+        },
+        {
+          "type": "paragraph",
+          "text": "We have a few dates to update. We either misunderstood, or the treatment plan got adjusted. In any case, here is the updated schedule for our week:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Monday, 6/15: Baseline hearing test at Everett campus (apparently the carboplatin drug can affect hearing, so they need to get a baseline to test for hearing loss later. This was also an appointment made possible due to a last minute cancellation.)",
+            "Tuesday, 6/16: Installation of a port (to avoid poking new holes in him every time he needs treatment or an IV) and taking samples of spinal fluid and bone marrow (to test for cancer spread)",
+            "Wednesday, 6/17: First day of chemo treatment (3 separate drugs: vincristine, carboplatin, and etoposide)",
+            "Thursday, 6/18: Second day of chemo treatment (only etoposide)"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "To help with the heavy concentration of appointments this week, my dad called Elias and invited him to spend the week with my parents. Elias was so excited! When I got home the day of the invite, he proudly announced to me that he would be going to Olympia. There he'll be able to get some special adult attention without feeling like he's being left out or gotten-rid-of on account of his brother. (He is largely unaware of Micaiah's condition and the treatments he's starting this week. For now, he knows Micaiah is sick and that he has a problem with his eyes.) He'll also get some dedicated cousin time, which will be awesome for him. As Elias kept telling us about going to Olympia with Granny and Papa, we came upon a tragically touching moment. Unbeknownst to us, he had begun to pack an overnight bag for himself. He was proudly listing off the items he had packed when he announced that he had packed some of Micaiah's things too. His demeanor visibly fell when we told him Micaiah wasn't big enough to go. For as much as they antagonize each other, Elias sure loves that kid."
+        },
+        {
+          "type": "paragraph",
+          "text": "Please continue to pray for Micaiah and our family. Specifically, we need continued prayers for favorable MRI results as well as favorable biopsy results. Those will help determine whether the cancer has spread beyond the eyes. In particular, the full MRI results will show whether the tumor has grown into the veins, which would require eye removal. We pray that he will be able to keep not just one, but both eyes. We also need prayers for highly effective treatment, smooth recovery, and good symptom management. He is such a sweet boy, and he has no way to steel himself for what is to come. Finally, we need prayers for a divinely-planned delivery date, a smooth delivery, and easy transition. Thank you all for your faithful support."
+        }
+      ]
+    },
     {
       "id": 3,
       "title": "MRI Results and Treatment Schedule",
