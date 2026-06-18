@@ -31,17 +31,18 @@ function extractPostId(path) {
 
 function updateSidebar(sidebar) {
     // Update Treatment Milestones
-    const diagnosisEl = document.querySelector('[data-sidebar="diagnosis"]');
-    if (diagnosisEl) diagnosisEl.textContent = sidebar.treatmentMilestones.diagnosis;
-    
-    const mriResultsEl = document.querySelector('[data-sidebar="mri-results"]');
-    if (mriResultsEl) mriResultsEl.textContent = sidebar.treatmentMilestones.mriResults;
-    
-    const biopsyResultsEl = document.querySelector('[data-sidebar="biopsy-results"]');
-    if (biopsyResultsEl) biopsyResultsEl.textContent = sidebar.treatmentMilestones.biopsyResults;
-    
-    const chemoStartEl = document.querySelector('[data-sidebar="chemo-start"]');
-    if (chemoStartEl) chemoStartEl.textContent = sidebar.treatmentMilestones.chemotherapyStart;
+    const milestonesContainer = document.querySelector('[data-sidebar="treatment-milestones"]');
+    if (milestonesContainer) {
+        milestonesContainer.innerHTML = sidebar.treatmentMilestones.map((milestone, index) => {
+            const isLast = index === sidebar.treatmentMilestones.length - 1;
+            return `
+                <div class="flex justify-between items-center py-2 ${!isLast ? 'border-b border-gray-100' : ''}">
+                    <span>${milestone.label}</span>
+                    <span class="font-medium text-gray-500 text-right">${milestone.value}</span>
+                </div>
+            `;
+        }).join('');
+    }
     
     // Update How to Pray
     const prayList = document.querySelector('[data-sidebar="pray-list"]');

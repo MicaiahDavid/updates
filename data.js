@@ -8,17 +8,46 @@ const siteData = {
     "heroImagePosition": "[23%_43%]"
   },
   "sidebar": {
-    "treatmentMilestones": {
-      "diagnosis": "Retinoblastoma",
-      "mriResults": "Positive Preliminary; Awaiting Final Results",
-      "biopsyResults": "TBD",
-      "chemotherapyStart": "6/17"
-    },
+    "treatmentMilestones": [
+      {
+        "label": "Diagnosis",
+        "value": "Retinoblastoma"
+      },
+      {
+        "label": "Chemotherapy Round",
+        "value": "Round 1 (6/17-18 infusions)"
+      },
+      {
+        "label": "Eye MRI Results",
+        "value": "Not definitive"
+      },
+      {
+        "label": "Brain MRI Results",
+        "value": "No cancer detected"
+      },
+      {
+        "label": "Spinal Fluid Test Results",
+        "value": "No cancer detected"
+      },
+      {
+        "label": "Marrow Results",
+        "value": "TBD"
+      },
+      {
+        "label": "Spinal MRI Results",
+        "value": "No cancer detected"
+      },
+      {
+        "label": "Next Appointments",
+        "value": "Lab draws Wednesday, 6/24"
+      }
+    ],
     "howToPray": [
-      "That the MRI would show no spread beyond the eyes",
+      "That the MRIs would show no spread beyond the eyes",
       "That the biopsies would come back clear",
       "That both eyes can be saved and vision restored",
       "Strength and comfort for Micaiah",
+      "That Micaiah would stay healthy and avoid nausea",
       "That treatment would be efficacious",
       "For Baby Boy's arrival (due June 20th) and good transition",
       "Strength and Understanding for Elias",
@@ -28,10 +57,19 @@ const siteData = {
       "Micaiah's left eye changed color, alerting us to the issue",
       "Long term effects of treatment should be minimal",
       "Micaiah is still acting like a normal energetic boy",
-      "Preliminary MRI results ruled out tumor growth on the brain"
+      "Preliminary test results ruled out cancer on the brain and spinal fluid",
     ]
   },
   "blogPosts": [
+    {
+      "id": 5,
+      "title": "Round 1 Infusions and Sundries",
+      "date": "June 18, 2026",
+      "excerpt": "Our hearts are tired, but full. The news we have received so far this week has been a mix of good and unclear news. So far we haven't received any bad news, but we have a long road ahead of us. This is just the beginning of our journey, so we are preparing ourselves mentally and spiritually for the days to come.",
+      "heroImage": "images/mitene24463927-bccd-4e1b-8b73-cd6117bc9d7b.jpg",
+      "heroImagePosition": "center",
+      "color": "orange"
+    },
     {
       "id": 4,
       "title": "Schedule Updates",
@@ -39,42 +77,7 @@ const siteData = {
       "excerpt": "The week leading up to Baby #3 (due Saturday, 6/20) is filling up quickly. It's quite remarkable, actually, how the timing of everything has worked out. Although we regret we didn't find out about Micaiah's tumors much earlier, it's hard not to see God making a way for us.",
       "heroImage": "images/back porch.jpg",
       "heroImagePosition": "center",
-      "color": "blue",
-      "content": [
-        {
-          "type": "paragraph",
-          "text": "The week leading up to Baby #3 (due Saturday, 6/20) is filling up quickly. It's quite remarkable, actually, how the timing of everything has worked out. Although we regret we didn't find out about Micaiah's tumors much earlier, it's hard not to see God making a way for us.  Inventory at the store was 6/4, which required a great deal of time for preparation. It was fortunate that the stress of inventory had passed before the greater stress of Micaiah's diagnosis came upon us. It's also fortunate that Micaiah's first round of treatments will be wrapped up just in time for Baby's due date. We would absolutely flip our lives upside down to make sure Micaiah gets the attention he needs, but so far the attention he needs has fit neatly within the big dates on our calendar. Even if some of that is due to the doctors' awareness of urgency and Jerusha's due date, we can't help but feel some of it is ordained too."
-        },
-        {
-          "type": "paragraph",
-          "text": "After the ophthalmologist diagnosed Micaiah with retinoblastoma, she was able to get us an appointment for an exam the very next day due to a cancellation. We were already appreciative of how quickly they were moving for us, but it wasn't until this week that we realized the ocular oncologist who did the exam was only at Seattle Children's two days each month—and the day we needed him to be there was one of them. Another canceled appointment created an opening for his MRI last week, which was yet another necessary step on the path toward treatment."
-        },
-        {
-          "type": "paragraph",
-          "text": "Then there's this week. Baby is due Saturday, but probably won't come until the middle of next week if Elias and Micaiah's birth/due dates are any indication. We have appointments four days this week leading up to that due date. Then (if my understanding is correct) we should have some recovery time for both Micaiah and Jerusha/Baby. Plans are in place for childcare when Jerusha goes into labor, and those plans include a contingency in case Baby decides to be early (as if anyone in our family would ever be early)."
-        },
-        {
-          "type": "paragraph",
-          "text": "We have a few dates to update. We either misunderstood, or the treatment plan got adjusted. In any case, here is the updated schedule for our week:"
-        },
-        {
-          "type": "list",
-          "items": [
-            "Monday, 6/15: Baseline hearing test at Everett campus (apparently the carboplatin drug can affect hearing, so they need to get a baseline to test for hearing loss later. This was also an appointment made possible due to a last minute cancellation.)",
-            "Tuesday, 6/16: Installation of a port (to avoid poking new holes in him every time he needs treatment or an IV) and taking samples of spinal fluid and bone marrow (to test for cancer spread)",
-            "Wednesday, 6/17: First day of chemo treatment (3 separate drugs: vincristine, carboplatin, and etoposide)",
-            "Thursday, 6/18: Second day of chemo treatment (only etoposide)"
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "To help with the heavy concentration of appointments this week, my dad called Elias and invited him to spend the week with my parents. Elias was so excited! When I got home the day of the invite, he proudly announced to me that he would be going to Olympia. There he'll be able to get some special adult attention without feeling like he's being left out or gotten-rid-of on account of his brother. (He is largely unaware of Micaiah's condition and the treatments he's starting this week. For now, he knows Micaiah is sick and that he has a problem with his eyes.) He'll also get some dedicated cousin time, which will be awesome for him. As Elias kept telling us about going to Olympia with Granny and Papa, we came upon a tragically touching moment. Unbeknownst to us, he had begun to pack an overnight bag for himself. He was proudly listing off the items he had packed when he announced that he had packed some of Micaiah's things too. His demeanor visibly fell when we told him Micaiah wasn't big enough to go. For as much as they antagonize each other, Elias sure loves that kid."
-        },
-        {
-          "type": "paragraph",
-          "text": "Please continue to pray for Micaiah and our family. Specifically, we need continued prayers for favorable MRI results as well as favorable biopsy results. Those will help determine whether the cancer has spread beyond the eyes. In particular, the full MRI results will show whether the tumor has grown into the veins, which would require eye removal. We pray that he will be able to keep not just one, but both eyes. We also need prayers for highly effective treatment, smooth recovery, and good symptom management. He is such a sweet boy, and he has no way to steel himself for what is to come. Finally, we need prayers for a divinely-planned delivery date, a smooth delivery, and easy transition. Thank you all for your faithful support."
-        }
-      ]
+      "color": "blue"
     },
     {
       "id": 3,
@@ -83,44 +86,7 @@ const siteData = {
       "excerpt": "Today was another step in the process. While Elias and I went into work, Jerusha took Micaiah for his MRI appointment as well as a hematology and oncology consultation. It was a long day for Micaiah. He left home before 8am and didn't get home until 6pm. Since they put him under for the MRI, he wasn't able to eat anything throughout the morning.",
       "heroImage": "images/1000013115.jpg",
       "heroImagePosition": "[50%_30%]",
-      "color": "green",
-      "content": [
-        {
-          "type": "paragraph",
-          "text": "Today was another step in the process. While Elias and I went into work, Jerusha took Micaiah for his MRI appointment as well as a hematology and oncology consultation. It was a long day for Micaiah. He left home before 8am and didn't get home until 6pm. Since they put him under for the MRI, he wasn't able to eat anything throughout the morning. Once he came to, he devoured his snacks. Apparently the precise concoction they give Micaiah to put him under is different depending on the needs for each appointment. Whatever they used today, I hope they do it again. Jerusha reported that it turned him into \"Loopy Micaiah.\" As he was coming to, he kept playing with his own dizziness, turning and shaking his head around and producing uncontrollable giggles."
-        },
-        {
-          "type": "images",
-          "images": [
-            {"src": "images/1000013110.jpg", "alt": "Hungry Boy getting his snack on"},
-            {"src": "images/1000013109.jpg", "alt": "Hungry Boy getting his snack on"}
-          ],
-          "caption": "Hungry Boy getting his snack on"
-        },
-        {
-          "type": "paragraph",
-          "text": "Jerusha said that he was a total champ throughout the day. As his personality continues to come out, he is more and more a master of charisma. His regular chants (or maybe shouts) of \"E-I-E-I-O\" cracked smiles throughout the waiting room with patients and staff alike. He kept playing peek-a-boo with people through the glass doors, literally making people laugh out loud. All the healthcare workers there certainly know how to care for kids well. Jerusha never felt rushed out before questions were answered, and they often had extra people in the room to help play with Micaiah so she could focus on the information they were giving her."
-        },
-        {
-          "type": "paragraph",
-          "text": "We don't yet have the full results from the MRI, but they were able to give us some preliminary results. There were two main areas of concern going into this. The first was that there could be a tumor growth on the brain since the tumor was already in both eyes. That turned out not to be the case. The second concern was that the tumors might be growing into the veins of the eyes, which would increase the risk of spread elsewhere. If the tumors had grown into the veins like that, they would recommend removal of the eye to prevent the spread throughout the body. While the preliminary results didn't show that per se, the tumor in the left eye was very close to some of those veins. The complete MRI results should give us more information, but we are still prayerful that the tumors have not grown into those veins and that we will be able to keep both his eyes."
-        },
-        {
-          "type": "paragraph",
-          "text": "After the MRI, they discussed treatment. Our first round of treatment for Micaiah will be Tuesday/Wednesday of this coming week (6/16-17). Since this will require multiple rounds of treatment, they're going to put in a port (a little IV access point) so they can avoid pinching him every time. They were encouraging about the treatment though, saying that it's not quite like they show in the movies. They were saying that little kids often do well, wandering around and being silly or playing while receiving treatment. They also quelled some of our fears regarding life-long side effects of interrupting or harming his developmental process. Apparently the specific treatments he will be receiving will not inhibit his development, and kids receiving it often grow up without any frailty. Of course, there will be some side effects. He will lose his hair, he won't have as much energy, he might have nausea, and he will probably be a bit lethargic. With this specific treatment, he will also have an elevated risk of other cancers developing later in life. However, given the fact that he has this retinoblastoma in both eyes, he will already have that elevated risk regardless of the side effects to this treatment. Still, if the treatment is effective, he can lead a very normal life."
-        },
-        {
-          "type": "paragraph",
-          "text": "When he got home, he was our normal little boy. He started romping around like any other day. One new development was that he ran down the hall and stood next to the training toilet. I didn't think much of it because he has been sitting on it for fun recently. What got my attention was when he quickly ran back to my and made an expressive grunting sound as he indicated he had diaper needs. When I asked if he had to go potty, he said, \"Yeah.\" And he did! It was his first potty on the training toilet. As silly as it sounds, that experience was a sweet mercy and a reminder that our lives will continue to have blessings—even in this season."
-        },
-        {
-          "type": "image",
-          "src": "images/1000013113.jpg",
-          "alt": "Big boy on a little potty!",
-          "caption": "Big boy on a little potty!",
-          "width": "w-3/5"
-        }
-      ]
+      "color": "green"
     },
     {
       "id": 1,
@@ -130,64 +96,7 @@ const siteData = {
       "heroImage": "images/1000013003.jpg",
       "heroImagePosition": "[53%_33%]",
       "color": "blue",
-      "isStart": true,
-      "content": [
-        {
-          "type": "paragraph",
-          "text": "A few months ago, we started to notice that Micaiah's eyes were slightly different shades of blue—one darker than the other. I thought it was a fun physical trait that would be a go-to ice breaker for him while making friends. Jerusha's motherly instincts, however, turned out to be correct. The optometrist ran some tests and, according to Jerusha, became visibly disturbed, giving us an \"urgent referral\" to Seattle Children's. That was Tuesday, 6/2. In brief , there was concern that Micaiah couldn't really see out the darker (left) eye. Although we were incredibly uncertain, we were hopeful. After all, we only knew a few limited details. Even though they didn't sound great, we didn't want to overreact and assume the worst possible option—especially since Micaiah was being a normal 20-month-old that didn't want to keep his eyes open for the exam."
-        },
-        {
-          "type": "paragraph",
-          "text": "My take was that we didn't know much of anything. Even with a concerning reading, my thinking was that the odds were in favor of a treatable vision issue. I kept telling Jerusha not to worry—that we'd get in and get treatment and everything would be alright. Still, Jerusha was a ball of stress. Rather than waiting for Seattle Children's to reach out to us, she called them every business day. It was good that she did because the optometrist's office apparently faxed the referral to the wrong number. A couple phone calls later and we had an appointment ready to go. Her instincts continued to pay off while my skepticism continued to diminish the credibility of my own opinion."
-        },
-        {
-          "type": "paragraph",
-          "text": "The ophthalmologist at the Everett campus of Seattle Children's performed a full eye exam on Tuesday 6/9 and gave us some unsettling findings. The exam confirmed that she couldn't see much out of his left eye and that it was due to an opacity in the eye, which had an uncomfortable resemblance to retinoblastoma—a rare form of ocular cancer. Retinoblastoma only occurs in a few hundred people per year. It usually occurs in children and usually has a hereditary pattern, but can occur randomly. As it turned out, the growth of the tumor was such that it blocked most of the light entering the eye so he couldn't see much out of it. The news got worse: His right eye had a retinoblastoma growth too. It hadn't affected the vision in his right eye because it developed more around the peripherals of the eye. The ophthalmologist got us an appointment with an ocular oncologist on the Seattle campus for the next day to both confirm the diagnosis, provide more details regarding progression, and lay out a treatment plan. Getting the appointment with the ocular oncologist the very next day was providential."
-        },
-        {
-          "type": "paragraph",
-          "text": "We were blessed to have friends who could watch Elias during our time at the Everett campus. On the way home from picking up Elias, Jerusha was smoothing out logistics with the Seattle campus for the next day. Elias chimed in and asked me, \"Daddy, can I go to the hospital with you tomorrow?\" Elias had a blast with his friend that day, but it seemed to me like he was feeling a bit left out. Obviously he didn't understand why Micaiah was getting extra attention. He knew that Micaiah's eyes weren't well, but he had no frame of reference for what that meant. What he sees is Micaiah playing like he normally does. His strong eye compensating for the weak, he runs around and acts like a normal kid even if extra clumsily. It was in that moment that I determined one of us needed to stay home with Elias. Seattle Children's didn't allow kids to come to the procedure, so either Jerusha or I needed to stay with him and give him a bit of a special day."
-        },
-        {
-          "type": "paragraph",
-          "text": "The night before going to the Seattle campus, Jerusha and I were both pretty numb. She was a cleaning whirlwind, and I was tidying up some of the tools from the house projects I've been working on. We connected on some logistical issues, but neither of us had the bandwidth to deal with the emotional weight we were feeling. She wanted to be with Micaiah during the exam, and that seemed prudent to me, given that Micaiah would probably want her for comfort before and after going under. I was sorry that I couldn't be with her to support her, but we were both ready to do what we needed to do for our boys."
-        },
-        {
-          "type": "paragraph",
-          "text": "That same night, I got a text from a buddy, asking if we could gather for some of the men of the church to pray over me for Micaiah (and the whole family). Jerusha said she could let me go for the evening, so I agreed. With such a last minute request, I was expecting to see a couple guys at his house. If memory serves, nine men showed up to pray for me. That alone overwhelmed me. What followed was an incredible time of prayer, exhortation, commitments for support, and gracious advice and reminders to keep the most important things in focus in the coming days of chaos. Alongside this was an outpouring of heartfelt messages, grace, prayers, and questions of how to support us. So far, we don't really even know what kind of support we need other than prayer."
-        },
-        {
-          "type": "paragraph",
-          "text": "On Wednesday, 6/10, the ocular oncologist performed the eye exam under anasthetic. We found out that it was even more advanced than we had initially thought. They grade the tumor progression from A to E (A being the least developed and E being the most developed). The left eye was graded as a D, but was teetering on the edge of being an E. The right eye was also a D. This is concerning, because the recommended treatment for an eye with an E-rated tumor is removal. So far, we have no way of knowing how quickly the tumor is progressing—and as the doctor pointed out, we hope we never have to find out. Because of how advanced the tumor is, there is the possibility that it has progressed beyond the eyes. For that reason, the doctor recommended whole-body systemic chemotherapy rather than a more localized treatment."
-        },
-        {
-          "type": "images",
-          "images": [
-            {"src": "images/1000013010.jpg", "alt": "Micaiah waiting for his eye exam"},
-            {"src": "images/1000013011.jpg", "alt": "Micaiah getting gowned up at Seattle Children's"}
-          ],
-          "captions": [
-            "Micaiah waiting for his eye exam",
-            "Micaiah getting gowned up at Seattle Children's"
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "It's worth mentioning at this point that we are so thankful that his left eye changed color. It had to do with the way the tumor grew. Despite both eyes being similarly advanced, the left eye grew in such a way that it blocked the blood vessels from reaching the lens of his left eye. The eye then attempted to develop new blood vessels for the lens. Those new vessels are what changed the eye color. On the right eye, however, the tumor grew on the peripherals of the eye without any visible changes to the eye itself. Were it not for the left eye changing color, we still wouldn't know about the cancer, and we probably wouldn't have found out until much later. Thank God for the color change in his eye."
-        },
-        {
-          "type": "paragraph",
-          "text": "The plan is to do chemo for six months during which we will take Micaiah in for periodic eye exams to track the status of the tumors. If medical treatments are effective, it is possible to save both eyes even though he will continue to have diminished sight in his left eye. The doctor also advised us to get eye exams for Elias and our baby boy (who is due June 20th) since retinoblastoma is typically hereditary—though not always and probably not in our case since we have no family history of it."
-        },
-        {
-          "type": "paragraph",
-          "text": "Meanwhile, Elias and I spent the day together. It wasn't a particularly remarkable day, but I think the time spent was a well-apportioned deposit in our relationship. Later in the afternoon, we picked up some family from the airport and had everyone at our house. It was nice. We got to spend some time in the sun socializing and enjoying some good food my brother and sister-in-law brought over. It was refreshing to have that sense of normalcy in our lives and have a dose of joy we could share in."
-        },
-        {
-          "type": "paragraph",
-          "text": "Today is Thursday, 6/11. We have an MRI with a hematology and oncology consultation tomorrow. More prayers are welcome, and we will provide updates as we have them. We continue to pray audaciously for complete healing and recovery of eyesight."
-        }
-      ]
+      "isStart": true
     },
     {
       "id": 2,
@@ -196,29 +105,7 @@ const siteData = {
       "excerpt": "What we're experiencing now is a calm before the storm. Of course we are in emotional turmoil, but as far as daily life goes, there's not a whole lot we can do for Micaiah until treatment is implemented. We've done a lot of thinking and processing. Last night, Jerusha and I got to finally sit down and connect over all this.",
       "heroImage": "images/unnamed (1).jpg",
       "heroImagePosition": "[80%_30%]",
-      "color": "purple",
-      "content": [
-        {
-          "type": "paragraph",
-          "text": "What we're experiencing now is a calm before the storm. Of course we are in emotional turmoil, but as far as daily life goes, there's not a whole lot we can do for Micaiah until treatment is implemented. We've done a lot of thinking and processing. Last night, Jerusha and I got to finally sit down and connect over all this. We talked through how we were feeling, but almost more importantly, we resolved how we would handle these challenges going forward. We established some emotional groundwork for our relationship during this stressful season and created some additional communication norms for ourselves. We also resolved that we weren't (as much as we can help it) going to consider what the future holds. Spinning ourselves out emotionally about what challenges we may be facing in 15, 10, 5, or even 2 years from now will only take energy away from the focus needed for this moment and this step of treatment. We resolved to keep our focus on whatever step of treatment we're in and continue praying for miracles."
-        },
-        {
-          "type": "paragraph",
-          "text": "One day this week (Tuesday, I think; the days are blurring together) I was sitting on the sofa, somehow both numb and on an emotional roller coaster. I looked over at Micaiah. He was playing with a toy firetruck at the time, making truck noises as he pushed it around. I thought of how tragic it was that he was playing as though nothing was wrong without even knowing the troubles he was facing. I was quickly corrected by the Holy Spirit. I was right that Micaiah doesn't understand his condition and that will create some challenges. At the same time, I was in danger of allowing my fear of what's coming inhibit my duty to be a present father, sharing the joys of life with him. In that moment, I was reminded to practice the disposition of humility by enjoying God's blessings rather than being obsessed with the curses and challenges of the world. This reminded me of the verse that has been my anchor this week: \"Shall we receive good from God and not receive evil\" (Job 2:10b)? Though this is admittedly an evil turn of events, our lives are still filled with so much of God's goodness."
-        },
-        {
-          "type": "paragraph",
-          "text": "The firetruck moment inspired another of our resolutions: We will do everything in our power to let all our children have normal lives not dominated by worry for the medical treatments of one of them. Elias and baby boy will certainly remember some challenges of Micaiah's treatment, but that will be a quality of their childhood rather than the feature. Micaiah will remember his time of treatment, but it will only be one aspect of his beautiful childhood. Some may fear that this is an optimistic outlook. Certainly there will be seasons when this is hard to implement, but it is the duty we owe to our children. God has not promised us trouble-free life. Our parental duty to teach our children to love, serve, and glorify God does not change when circumstances change or when lives are made challenging or cut short. I guess a shorter way of saying this is to say that we don't want to obsess over physical treatment to the detriment of our kids' spiritual development."
-        },
-        {
-          "type": "paragraph",
-          "text": "Does this mean than we will reject treatment in an effort to pray the cancer away? Of course not; we will follow all the prescribed treatment we are given. It means that God will use for good the things Satan plans for evil. We may not understand it or see quite how or when the good will come, but we can teach our children what it means to trust in God through hardship. We can teach our children how to pray, reminding God of his character and the promises of his kingdom while maintaining a disposition of humility that accepts the evil with the good."
-        },
-        {
-          "type": "paragraph",
-          "text": "I say all this knowing that the future will be harder than I can imagine even now. I say this having already (within a week) discovered what it means to truly weep. When Micaiah loses his hair, becomes frail and sickly, and struggles to understand, it will add a new depth to my comprehension of grief. Days of struggle and pain are coming. Right now we are in a relative calm before that storm, struggling not to spiral into paralysis from all the what-ifs of the future. Please pray for us to faithfully raise our children and care for them in this challenging season."
-        }
-      ]
+      "color": "purple"
     }
   ]
 };
