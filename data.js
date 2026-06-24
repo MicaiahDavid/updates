@@ -3,7 +3,7 @@ const siteData = {
     "title": "Micaiah David",
     "subtitle": "Updates on prognosis, treatments, and prayer requests",
     "shareMessage": "Please feel free to share this page with anyone who would be willing to pray for our boy.",
-    "lastUpdated": "June 12, 2026",
+    "lastUpdated": "June 24, 2026",
     "heroImage": "images/unnamed.jpg",
     "heroImagePosition": "[23%_43%]"
   },
@@ -31,7 +31,7 @@ const siteData = {
       },
       {
         "label": "Marrow Results",
-        "value": "TBD"
+        "value": "No cancer detected"
       },
       {
         "label": "Spinal MRI Results",
@@ -39,12 +39,10 @@ const siteData = {
       },
       {
         "label": "Next Appointments",
-        "value": "Lab draws Wednesday, 6/24"
+        "value": "Lab draws Friday, 6/26 and Monday, 6/29"
       }
     ],
     "howToPray": [
-      "That the MRIs would show no spread beyond the eyes",
-      "That the biopsies would come back clear",
       "That both eyes can be saved and vision restored",
       "Strength and comfort for Micaiah",
       "That Micaiah would stay healthy and avoid nausea",
@@ -57,10 +55,19 @@ const siteData = {
       "Micaiah's left eye changed color, alerting us to the issue",
       "Long term effects of treatment should be minimal",
       "Micaiah is still acting like a normal energetic boy",
-      "Preliminary test results ruled out cancer on the brain and spinal fluid",
+      "Tests have shown no cancer beyond the globes of the eyes",
     ]
   },
   "blogPosts": [
+    {
+      "id": 6,
+      "title": "God is Over All",
+      "date": "June 24, 2026",
+      "excerpt": "Four days overdue, and still no baby. We've had a lot of uncertainty and a large dose of hurry-up-and-wait since our last update. Meanwhile, Micaiah is handling his treatment very well. His appetite has been good, and he hasn't been significantly nauseous. We received the report from the marrow biopsy—everything was negative! Right now, the doctor tells us that the globes of the eyes are the only area of concern.",
+      "heroImage": "images/20260624_091351.jpg",
+      "heroImagePosition": "center",
+      "color": "blue"
+    },
     {
       "id": 5,
       "title": "Round 1 Infusions and Sundries",
@@ -87,16 +94,7 @@ const siteData = {
       "heroImage": "images/1000013115.jpg",
       "heroImagePosition": "[50%_30%]",
       "color": "green"
-    },
-    {
-      "id": 1,
-      "title": "Micaiah's Diagnosis",
-      "date": "June 11, 2026",
-      "excerpt": "A few months ago, we started to notice that Micaiah's eyes were slightly different shades of blue—one darker than the other. I thought it was a fun physical trait that would be a go-to ice breaker for him while making friends. Jerusha's motherly instincts, however, turned out to be correct. The optometrist ran some tests and, according to Jerusha, became visibly disturbed, giving us an \"urgent referral\" to Seattle Children's.",
-      "heroImage": "images/1000013003.jpg",
-      "heroImagePosition": "[53%_33%]",
-      "color": "blue",
-      "isStart": true
+
     },
     {
       "id": 2,
@@ -106,6 +104,15 @@ const siteData = {
       "heroImage": "images/unnamed (1).jpg",
       "heroImagePosition": "[80%_30%]",
       "color": "purple"
-    }
+    },
+    {
+      "id": 1,
+      "title": "Micaiah's Diagnosis",
+      "date": "June 11, 2026",
+      "excerpt": "A few months ago, we started to notice that Micaiah's eyes were slightly different shades of blue—one darker than the other. I thought it was a fun physical trait that would be a go-to ice breaker for him while making friends. Jerusha's motherly instincts, however, turned out to be correct. The optometrist ran some tests and, according to Jerusha, became visibly disturbed, giving us an \"urgent referral\" to Seattle Children's.",
+      "heroImage": "images/1000013003.jpg",
+      "heroImagePosition": "[53%_33%]",
+      "color": "blue",
+      "isStart": true    }
   ]
 };
