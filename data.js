@@ -39,7 +39,7 @@ const siteData = {
       },
       {
         "label": "Next Appointments",
-        "value": "Lab draws Friday, 6/26 and Monday, 6/29"
+        "value": "Samuel's eye exam (7/1)"
       }
     ],
     "howToPray": [
@@ -47,7 +47,7 @@ const siteData = {
       "Strength and comfort for Micaiah",
       "That Micaiah would stay healthy and avoid nausea",
       "That treatment would be efficacious",
-      "For Baby Boy's arrival (due June 20th) and good transition",
+      "That Elias and Samuel's eye exams would rule out retinoblastoma for them",
       "Strength and Understanding for Elias",
       "Strength for our family"
     ],
@@ -56,9 +56,19 @@ const siteData = {
       "Long term effects of treatment should be minimal",
       "Micaiah is still acting like a normal energetic boy",
       "Tests have shown no cancer beyond the globes of the eyes",
+      "Easy birth and transition for Samuel",
     ]
   },
   "blogPosts": [
+    {
+      "id": 7,
+      "title": "New Baby and Labs",
+      "date": "June 30, 2026",
+      "excerpt": "Weighing 8 pounds 3 ounces and measuring 20.25 inches, Samuel Halvor was born on June 27, 2026, at 12:19 p.m. He and Jerusha are home now and recovering well. Micaiah's blood counts have bottomed out and are starting to recover, and we've noticed a reduction in the darker eye color of his left eye—a possible sign of treatment efficacy.",
+      "heroImage": "images/mitenec94d46f2-72e4-4c15-bf34-a8ae7c6155d1.jpg",
+      "heroImagePosition": "center",
+      "color": "green"
+    },
     {
       "id": 6,
       "title": "God is Over All",

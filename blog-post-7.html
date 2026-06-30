@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Baby and Labs - Micaiah David</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .font-serif {
+            font-family: 'Playfair Display', serif;
+        }
+    </style>
+    <script src="data.js"></script>
+    <script src="load-content.js"></script>
+</head>
+<body class="bg-gradient-to-br from-blue-100 via-pink-50 to-purple-100 min-h-screen">
+
+    <!-- Hero Image -->
+    <section class="relative w-full h-[480px] md:h-[620px] overflow-hidden">
+        <div class="absolute inset-0">
+            <img src="images/20260629_182744.jpg" alt="Micaiah David" class="w-full h-full object-cover object-[10%_30%]">
+            <div class="absolute inset-0 bg-gradient-to-b from-black/40 via-black/20 to-black/50"></div>
+        </div>
+    </section>
+
+    <!-- Main Content Grid -->
+    <div class="max-w-full mx-auto px-2 py-8">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-6">
+            
+            <!-- Left Sidebar - Treatment Milestones -->
+            <aside class="lg:col-span-2 lg:col-start-2 flex flex-col gap-6 lg:sticky lg:top-6 order-2 lg:order-1">
+                <div class="bg-white rounded-2xl shadow-md p-6 border border-gray-200">
+                    <h3 class="font-serif text-xl font-bold text-gray-800 mb-4">Treatment Milestones</h3>
+                    <div class="space-y-3 text-sm text-gray-600" data-sidebar="treatment-milestones"></div>
+                </div>
+
+                <!-- Subscribe Form -->
+                <div class="bg-gradient-to-br from-blue-50 to-purple-50 rounded-2xl shadow-md p-6 border border-blue-200">
+                    <h3 class="font-serif text-xl font-bold text-gray-800 mb-3">Subscribe to Updates</h3>
+                    <p class="text-sm text-gray-600 mb-4">Get email notifications when we post updates about Micaiah.</p>
+                    <form id="subscribe-form" action="https://script.google.com/macros/s/AKfycbzNtTNMowqrgDPE2lP1D5jZ-FjIyX1U_QRlTOQZ-EtKV6OxPd_pPiKyV1UWOceCnhfR/exec" method="POST" target="hidden-iframe" onsubmit="handleSubscribe(event)">
+                        <input 
+                            type="email" 
+                            name="email"
+                            id="subscribe-email"
+                            placeholder="Your email address" 
+                            required
+                            class="w-full px-4 py-2 border border-gray-300 rounded-lg mb-3 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                        >
+                        <button 
+                            type="submit"
+                            id="subscribe-button"
+                            class="w-full bg-gradient-to-r from-blue-600 to-purple-600 text-white px-4 py-2 rounded-lg font-medium hover:from-blue-700 hover:to-purple-700 transition-colors"
+                        >
+                            Subscribe
+                        </button>
+                    </form>
+                    <p id="subscribe-message" class="text-xs mt-3 text-center hidden"></p>
+                </div>
+            </aside>
+
+            <!-- Main Content - Blog Post -->
+            <main class="lg:col-span-6 lg:col-start-4 order-1 lg:order-2">
+                <article>
+                    <a href="index.html" class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors mb-8">
+                        <svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
+                        </svg>
+                        Back to Updates
+                    </a>
+
+                    <h1 class="font-serif text-4xl md:text-5xl font-bold text-gray-800 mb-2">New Baby and Labs</h1>
+                    <p class="text-gray-500 text-lg mb-8">June 30, 2026</p>
+
+                    <div class="bg-white rounded-2xl shadow-lg p-8 md:p-12">
+                        <div class="prose prose-lg max-w-none text-gray-700">
+                <p class="mb-4">
+                    Weighing 8 pounds 3 ounces and measuring 20.25 inches, Samuel Halvor was born on June 27, 2026, at 12:19 p.m. He was a rather quick birth, and once again God is proving His providence over our schedule. Samuel could not have come on a better day. He and Jerusha are home now and recovering well. So far the transition has gone smoothly. We have been blessed with very easy children, and Samuel is no exception. We've chosen the names of our boys almost as prayers over their lives for the men they will become. We were mostly settled on Samuel before finding out about Micaiah's retinoblastoma, and the meaning of that name ("God hears") has been a comfort to us during this time. We are so humbled by the undeserved blessings God continues to pour into our lives.
+                </p>
+
+                <div class="my-8">
+                    <img src="images/mitenec94d46f2-72e4-4c15-bf34-a8ae7c6155d1.jpg" alt="Samuel Halvor" class="w-full md:w-2/5 rounded-xl shadow-lg mx-auto">
+                    <p class="text-sm text-gray-500 mt-2 text-center italic">Samuel Halvor</p>
+                </div>
+
+                <p class="mb-4">
+                    Elias fell in love with Samuel immediately. Micaiah was curious, but took a while to warm up to him. Micaiah also needed some major comfort when he came into the room. Our theory is that he was apprehensive about entering the hospital. He gripped onto my neck in a bear hug and didn't want to be put down for about 10 minutes—or rather until I pulled out his farm animal book.
+                </p>
+
+                <p class="mb-4">
+                    Even so, Micaiah is impressively resilient. His attitude has been great, such that the doctors and nurses have commented on how well he is handling everything. Whether that's a genuine remark or simply a kind encouragement is unclear, but we are impressed by him at the very least.
+                </p>
+
+                <p class="mb-4">
+                    We've finished the first round of lab draws now, and his blood counts have bottomed out and are starting to recover. We were thankful he did not require any transfusions this time around. He may well need some in future rounds, but we are grateful for each glimpse of strength we can see in his little body. Our next appointment for him will be his next round of treatment in July. Samuel, however, will go in on Wednesday, July 1 to get an eye exam. Given that retinoblastoma generally has a genetic component, they want to give him an exam to get ahead of any issues he might have. Elias will eventually need to get his eyes checked as well. Since we have no known family history of retinoblastoma, we don't know whether Micaiah's is due to an inherited mutation or a new genetic change. The eye exams and genetic testing will answer some of those questions. We continue to pray that our other boys will be cleared of any danger of retinoblastoma.
+                </p>
+
+                <p class="mb-4">
+                    As for Micaiah's progress, we will have to wait until next month (after the next round of infusions) when we will have another exam under anesthetic. That being said, Jerusha and I have both noticed a reduction in the darker eye color of the left eye. At first we wondered if we were imagining it, but the doctor said that it was possible and recommended we keep observing. Since that conversation, we have watched his iris continue to lighten and now it looks almost identical to the right eye. His left eye is still dilated more than the right, but we are encouraged that this could be a sign of treatment efficacy. We will continue to pray for effective treatment as we look forward to getting the results of his next exam (July 22).
+                </p>
+                        </div>
+                    </div>
+                </article>
+            </main>
+
+            <!-- Right Sidebar Column -->
+            <aside class="lg:col-span-2 flex flex-col gap-6 lg:sticky lg:top-6 self-start order-3">
+                <!-- How to Pray -->
+                <div class="bg-gradient-to-r from-amber-50 to-orange-50 rounded-2xl shadow-md p-6 border border-amber-200">
+                    <h3 class="font-serif text-2xl font-bold text-amber-800 mb-4 text-center">How to Pray for Us Right Now</h3>
+                    <ul class="grid grid-cols-1 gap-3 text-gray-700" data-sidebar="pray-list"></ul>
+                </div>
+
+                <!-- How to Give Thanks -->
+                <div class="bg-gradient-to-r from-green-50 to-emerald-50 rounded-2xl shadow-md p-6 border border-green-200">
+                    <h3 class="font-serif text-2xl font-bold text-green-800 mb-4 text-center">How to Give Thanks with Us Right Now</h3>
+                    <ul class="grid grid-cols-1 gap-3 text-gray-700" data-sidebar="thanks-list"></ul>
+                </div>
+            </aside>
+        </div>
+    </div>
+
+    <iframe name="hidden-iframe" style="display:none;"></iframe>
+
+    <script>
+        function handleSubscribe(event) {
+            event.preventDefault();
+            
+            const email = document.getElementById('subscribe-email').value;
+            const button = document.getElementById('subscribe-button');
+            const message = document.getElementById('subscribe-message');
+            
+            button.disabled = true;
+            button.textContent = 'Subscribing...';
+            
+            // Use form submission to avoid CORS issues
+            const form = document.getElementById('subscribe-form');
+            form.submit();
+            
+            // Show success message after a delay
+            setTimeout(() => {
+                message.classList.remove('hidden');
+                message.textContent = 'Successfully subscribed!';
+                message.classList.add('text-green-600');
+                document.getElementById('subscribe-email').value = '';
+                button.disabled = false;
+                button.textContent = 'Subscribe';
+            }, 1000);
+        }
+    </script>
+</body>
+</html>
