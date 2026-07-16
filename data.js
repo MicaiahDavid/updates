@@ -46,7 +46,7 @@ const siteData = {
       "That both eyes can be saved and vision restored",
       "Strength and comfort for Micaiah",
       "That Micaiah would stay healthy and avoid nausea",
-      "That treatment would be efficacious",
+      "That the next exam would show no concerns for Elias and Samuel and marked improvement for Micaiah",
       "That genetic tests would rule out retinoblastoma for Elias and Samuel",
       "Strength and Understanding for Elias",
       "Strength for our family"
