@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Round 2 Begins - Micaiah David</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .font-serif {
+            font-family: 'Playfair Display', serif;
+        }
+    </style>
+    <script src="data.js"></script>
+    <script src="load-content.js"></script>
+</head>
+<body class="bg-gradient-to-br from-blue-100 via-pink-50 to-purple-100 min-h-screen">
+
+    <!-- Hero Image -->
+    <section class="relative w-full h-[480px] md:h-[620px] overflow-hidden">
+        <div class="absolute inset-0">
+            <img src="images/mitene16673be4-e824-4203-98f8-b1b8638c2a68.jpg" alt="Micaiah David" class="w-full h-full object-cover object-center">
+            <div class="absolute inset-0 bg-gradient-to-b from-black/40 via-black/20 to-black/50"></div>
+        </div>
+    </section>
+
+    <!-- Main Content Grid -->
+    <div class="max-w-full mx-auto px-2 py-8">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-6">
+            
+            <!-- Left Sidebar - Treatment Milestones -->
+            <aside class="lg:col-span-2 lg:col-start-2 flex flex-col gap-6 lg:sticky lg:top-6 order-2 lg:order-1">
+                <div class="bg-white rounded-2xl shadow-md p-6 border border-gray-200">
+                    <h3 class="font-serif text-xl font-bold text-gray-800 mb-4">Treatment Milestones</h3>
+                    <div class="space-y-3 text-sm text-gray-600" data-sidebar="treatment-milestones"></div>
+                </div>
+
+                <!-- Subscribe Form -->
+                <div class="bg-gradient-to-br from-blue-50 to-purple-50 rounded-2xl shadow-md p-6 border border-blue-200">
+                    <h3 class="font-serif text-xl font-bold text-gray-800 mb-3">Subscribe to Updates</h3>
+                    <p class="text-sm text-gray-600 mb-4">Get email notifications when we post updates about Micaiah.</p>
+                    <form id="subscribe-form" action="https://script.google.com/macros/s/AKfycbzNtTNMowqrgDPE2lP1D5jZ-FjIyX1U_QRlTOQZ-EtKV6OxPd_pPiKyV1UWOceCnhfR/exec" method="POST" target="hidden-iframe" onsubmit="handleSubscribe(event)">
+                        <input 
+                            type="email" 
+                            name="email"
+                            id="subscribe-email"
+                            placeholder="Your email address" 
+                            required
+                            class="w-full px-4 py-2 border border-gray-300 rounded-lg mb-3 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                        >
+                        <button 
+                            type="submit"
+                            id="subscribe-button"
+                            class="w-full bg-gradient-to-r from-blue-600 to-purple-600 text-white px-4 py-2 rounded-lg font-medium hover:from-blue-700 hover:to-purple-700 transition-colors"
+                        >
+                            Subscribe
+                        </button>
+                    </form>
+                    <p id="subscribe-message" class="text-xs mt-3 text-center hidden"></p>
+                </div>
+            </aside>
+
+            <!-- Main Content - Blog Post -->
+            <main class="lg:col-span-6 lg:col-start-4 order-1 lg:order-2">
+                <article>
+                    <a href="index.html" class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors mb-8">
+                        <svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
+                        </svg>
+                        Back to Updates
+                    </a>
+
+                    <h1 class="font-serif text-4xl md:text-5xl font-bold text-gray-800 mb-2">Round 2 Begins</h1>
+                    <p class="text-gray-500 text-lg mb-8">July 15, 2026</p>
+
+                    <div class="bg-white rounded-2xl shadow-lg p-8 md:p-12">
+                        <div class="prose prose-lg max-w-none text-gray-700">
+                <p class="mb-4">
+                    We committed early on to enjoy God's blessings through this trial and avoid catastrophizing our present moment with <em>possible</em> future challenges. Still, as we get closer to Micaiah's next eye exam, we gradually become more apprehensive. We have found solace in the knowledge that there's nothing we can do aside from love our boys and walk them through this confusing season, but we are now approaching the moment of truth where we will discover how effective the treatment has been so far.
+                </p>
+
+                <p class="mb-4">
+                    Micaiah's left eye did return to the same color as his right after just one round of chemo, but that doesn't offer any certainty regarding the status of the tumors. It seems like the eye returning to normal can't be a bad sign, so it offers us a fair dose of courage, but the unknown still lurks in our minds. While I was brushing his teeth the other day, Micaiah's eyes were angled in just the right direction and dilated just enough for me to actually see into the left eye. I caught a glimpse of what appeared to be a white mass and the red of the retina behind it. I don't know whether it is bigger or smaller than before, but it was a grim reminder that we aren't out of the woods yet. The eye exam next week (7/22) will give us a professional assessment of his tumors, which will remove the uncertainty for better or worse. Our hope, of course, would be that the tumors have shrunk beyond our wildest expectations, but that fear reminds us that poor response to treatment could demand removal of one or both of his eyes.
+                </p>
+
+                <p class="mb-4">
+                    Samuel and Elias will both get eye exams on the same day as Micaiah. The doctor saw nothing concerning in Samuel's previous eye exam, but they will need to continue with regular exams for both Elias and Samuel until we get results back from the genetic tests. The doctors say it is highly unlikely that they will have retinoblastoma like Micaiah since we have no family history of it. We hope they are right, but we are eager to get an actual exam for Elias and to receive the genetic test results to put our minds at ease. Unfortunately, those genetic tests are supposed to take several months. In the meantime, we will be doing regular eye exams for all the boys.
+                </p>
+
+                <div class="my-8">
+                    <img src="images/20260714_082034.jpg" alt="Elias walking Micaiah in for treatment" class="w-full md:w-2/5 rounded-xl shadow-lg mx-auto">
+                    <p class="text-sm text-gray-500 mt-2 text-center italic">Elias, walking Micaiah in for treatment</p>
+                </div>
+
+                <p class="mb-4">
+                    Round 2 of treatment began 7/14. They were able to get us in a day earlier than initially anticipated. Micaiah handled everything very well. He did great even when accessing the port, which still involves a bit of a needle poke—so much so that the nurses commented on how well he took it. As they were getting everything ready, he grabbed my hands and put them together like when we pray. I guess I shouldn't be surprised by it. Even at his age, he probably gets comfort from prayer too.
+                </p>
+
+                <p class="mb-4">
+                    That night, we had a bit of a stressful evening. When we got home, the dressing they put around his port access had started to fall off. They put an adhesive dressing over the port access site to keep it sterile, but this time when we got home, it was already starting to peel away on one side. Later in the night, he managed to de-access the port himself. Unfortunately, that left the access (including its needle) loose in the dressing. The needle irritated his skin, but thankfully didn't create any new punctures. We sent pictures in to the nurse on call, and we were told we could simply wipe the port with some alcohol wipes and let him go back to sleep. Fortunately, it ended up being less serious than it could have been.
+                </p>
+
+                <p class="mb-4">
+                    That was a scary moment, but it was a visceral reminder of how different real problems are compared to ethereal or uncertain future problems. The fear of unconfirmed possible future problems does nothing but steal our joy. Fear works in diabolical ways, trying to convince us that everything good in our lives will be ruined if we receive bad news. It works piecemeal, not trying to convince us that the world will end, but by asking prodding questions that we aren't supposed to have an answer to—making us question whether <em>our</em> world will end. What will happen if treatment is ineffective? How will we raise a child missing one—or both—eyes? These are some of the implicit questions that come when fear is allowed a foothold in our hearts.
+                </p>
+
+                <p class="mb-4">
+                    Certainly they could become very real questions for us in the future, but we could just as well ask what we will do if our prayers are answered. What if God saves one of his eyes—or both? What if God saves his life? What if God completely restores his vision? We don't habitually resort to asking what we will do if those things happen, but maybe we should. How will we give thanks for His blessings—that is, the ones we're specifically asking for right now? As much as people mock the use of platitudes when talking to people in grief (I get it, but I think it's overblown), we don't pause to consider how much our response to God's grace is often a platitude. Maybe it's a hollow, platitudinous "Thanks, God" with the attitude that God's blessings should constitute our "normal" state of life. Such an attitude can only result in indifference toward God in moments of blessing and cursing God in moments of suffering. To be sure, God's goodness is absolute, and our review of life in this fallen world reflects more about us than it does Him.
+                </p>
+
+                <p class="mb-4">
+                    We want Micaiah to be healthy and to have his vision, and we're following his treatment plan to that end. When the fear comes, we recognize it for the distraction it is. There are no answers to these questions except one: Whether the Lord gives or takes away, we will bless the name of the Lord and live in the joy of His goodness.
+                </p>
+                        </div>
+                    </div>
+                </article>
+            </main>
+
+            <!-- Right Sidebar Column -->
+            <aside class="lg:col-span-2 flex flex-col gap-6 lg:sticky lg:top-6 self-start order-3">
+                <!-- How to Pray -->
+                <div class="bg-gradient-to-r from-amber-50 to-orange-50 rounded-2xl shadow-md p-6 border border-amber-200">
+                    <h3 class="font-serif text-2xl font-bold text-amber-800 mb-4 text-center">How to Pray for Us Right Now</h3>
+                    <ul class="grid grid-cols-1 gap-3 text-gray-700" data-sidebar="pray-list"></ul>
+                </div>
+
+                <!-- How to Give Thanks -->
+                <div class="bg-gradient-to-r from-green-50 to-emerald-50 rounded-2xl shadow-md p-6 border border-green-200">
+                    <h3 class="font-serif text-2xl font-bold text-green-800 mb-4 text-center">How to Give Thanks with Us Right Now</h3>
+                    <ul class="grid grid-cols-1 gap-3 text-gray-700" data-sidebar="thanks-list"></ul>
+                </div>
+            </aside>
+        </div>
+    </div>
+
+    <iframe name="hidden-iframe" style="display:none;"></iframe>
+
+    <script>
+        function handleSubscribe(event) {
+            event.preventDefault();
+            
+            const email = document.getElementById('subscribe-email').value;
+            const button = document.getElementById('subscribe-button');
+            const message = document.getElementById('subscribe-message');
+            
+            button.disabled = true;
+            button.textContent = 'Subscribing...';
+            
+            // Use form submission to avoid CORS issues
+            const form = document.getElementById('subscribe-form');
+            form.submit();
+            
+            // Show success message after a delay
+            setTimeout(() => {
+                message.classList.remove('hidden');
+                message.textContent = 'Successfully subscribed!';
+                message.classList.add('text-green-600');
+                document.getElementById('subscribe-email').value = '';
+                button.disabled = false;
+                button.textContent = 'Subscribe';
+            }, 1000);
+        }
+    </script>
+</body>
+</html>

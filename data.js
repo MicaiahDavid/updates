@@ -15,7 +15,7 @@ const siteData = {
       },
       {
         "label": "Chemotherapy Round",
-        "value": "Round 1 (6/17-18 infusions)"
+        "value": "Round 2 (7/14-15 infusions)"
       },
       {
         "label": "Eye MRI Results",
@@ -39,7 +39,7 @@ const siteData = {
       },
       {
         "label": "Next Appointments",
-        "value": "Samuel's eye exam (7/1)"
+        "value": "Eye exam for all the boys (7/22)"
       }
     ],
     "howToPray": [
@@ -47,19 +47,28 @@ const siteData = {
       "Strength and comfort for Micaiah",
       "That Micaiah would stay healthy and avoid nausea",
       "That treatment would be efficacious",
-      "That Elias and Samuel's eye exams would rule out retinoblastoma for them",
+      "That genetic tests would rule out retinoblastoma for Elias and Samuel",
       "Strength and Understanding for Elias",
       "Strength for our family"
     ],
     "howToGiveThanks": [
       "Micaiah's left eye changed color, alerting us to the issue",
       "Long term effects of treatment should be minimal",
-      "Micaiah is still acting like a normal energetic boy",
+      "So far Micaiah has handled chemo like a champ",
       "Tests have shown no cancer beyond the globes of the eyes",
       "Easy birth and transition for Samuel",
     ]
   },
   "blogPosts": [
+    {
+      "id": 8,
+      "title": "Round 2 Begins",
+      "date": "July 15, 2026",
+      "excerpt": "We committed early on to enjoy God's blessings through this trial and avoid catastrophizing our present moment with possible future challenges. Still, as we get closer to Micaiah's next eye exam, we gradually become more apprehensive. Round 2 of treatment began 7/14, and Micaiah handled everything very well—even the port access.",
+      "heroImage": "images/mitene16673be4-e824-4203-98f8-b1b8638c2a68.jpg",
+      "heroImagePosition": "center",
+      "color": "purple"
+    },
     {
       "id": 7,
       "title": "New Baby and Labs",
