@@ -18,48 +18,46 @@ const siteData = {
         "value": "Round 2 (7/14-15 infusions)"
       },
       {
-        "label": "Eye MRI Results",
-        "value": "Not definitive"
+        "label": "Cancer Location",
+        "value": "Contained to the eyes"
       },
       {
-        "label": "Brain MRI Results",
-        "value": "No cancer detected"
-      },
-      {
-        "label": "Spinal Fluid Test Results",
-        "value": "No cancer detected"
-      },
-      {
-        "label": "Marrow Results",
-        "value": "No cancer detected"
-      },
-      {
-        "label": "Spinal MRI Results",
-        "value": "No cancer detected"
+        "label": "Cause",
+        "value": "Genetic mutation during embryonic development"
       },
       {
         "label": "Next Appointments",
-        "value": "Eye exam for all the boys (7/22)"
+        "value": "Labs (7/24-27)"
       }
     ],
     "howToPray": [
-      "That both eyes can be saved and vision restored",
+      "That the right eye would continue to improve beyond all expectations",
+      "That the left eye would improve and the retina would reattach to the back wall",
       "Strength and comfort for Micaiah",
       "That Micaiah would stay healthy and avoid nausea",
-      "That the next exam would show no concerns for Elias and Samuel and marked improvement for Micaiah",
-      "That genetic tests would rule out retinoblastoma for Elias and Samuel",
       "Strength and Understanding for Elias",
       "Strength for our family"
     ],
     "howToGiveThanks": [
       "Micaiah's left eye changed color, alerting us to the issue",
+      "Micaiah's right eye has responded well to treatment so far",
       "Long term effects of treatment should be minimal",
+      "Micaiah's genetics resulted from a mutation in embryonic development, so it does not affect the other boys",
       "So far Micaiah has handled chemo like a champ",
       "Tests have shown no cancer beyond the globes of the eyes",
       "Easy birth and transition for Samuel",
     ]
   },
   "blogPosts": [
+    {
+      "id": 9,
+      "title": "Long Road Ahead",
+      "date": "July 23, 2026",
+      "excerpt": "We have officially received our first status update for Micaiah's retinoblastoma. The good news is that Micaiah's right eye is responding excellently to the treatment—the tumor mass has shrunk by about 50%. The left eye is still tenuous, but we believe in a God who specializes in miracles.",
+      "heroImage": "images/20260722_092505.jpg",
+      "heroImagePosition": "center",
+      "color": "blue"
+    },
     {
       "id": 8,
       "title": "Round 2 Begins",

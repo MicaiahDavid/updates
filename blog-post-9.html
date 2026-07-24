@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Long Road Ahead - Micaiah David</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .font-serif {
+            font-family: 'Playfair Display', serif;
+        }
+    </style>
+    <script src="data.js"></script>
+    <script src="load-content.js"></script>
+</head>
+<body class="bg-gradient-to-br from-blue-100 via-pink-50 to-purple-100 min-h-screen">
+
+    <!-- Hero Image -->
+    <section class="relative w-full h-[480px] md:h-[620px] overflow-hidden">
+        <div class="absolute inset-0">
+            <img src="images/20260722_092505.jpg" alt="Micaiah David" class="w-full h-full object-cover object-center">
+            <div class="absolute inset-0 bg-gradient-to-b from-black/40 via-black/20 to-black/50"></div>
+        </div>
+    </section>
+
+    <!-- Main Content Grid -->
+    <div class="max-w-full mx-auto px-2 py-8">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-6">
+            
+            <!-- Left Sidebar - Treatment Milestones -->
+            <aside class="lg:col-span-2 lg:col-start-2 flex flex-col gap-6 lg:sticky lg:top-6 order-2 lg:order-1">
+                <div class="bg-white rounded-2xl shadow-md p-6 border border-gray-200">
+                    <h3 class="font-serif text-xl font-bold text-gray-800 mb-4">Treatment Milestones</h3>
+                    <div class="space-y-3 text-sm text-gray-600" data-sidebar="treatment-milestones"></div>
+                </div>
+
+                <!-- Subscribe Form -->
+                <div class="bg-gradient-to-br from-blue-50 to-purple-50 rounded-2xl shadow-md p-6 border border-blue-200">
+                    <h3 class="font-serif text-xl font-bold text-gray-800 mb-3">Subscribe to Updates</h3>
+                    <p class="text-sm text-gray-600 mb-4">Get email notifications when we post updates about Micaiah.</p>
+                    <form id="subscribe-form" action="https://script.google.com/macros/s/AKfycbzNtTNMowqrgDPE2lP1D5jZ-FjIyX1U_QRlTOQZ-EtKV6OxPd_pPiKyV1UWOceCnhfR/exec" method="POST" target="hidden-iframe" onsubmit="handleSubscribe(event)">
+                        <input 
+                            type="email" 
+                            name="email"
+                            id="subscribe-email"
+                            placeholder="Your email address" 
+                            required
+                            class="w-full px-4 py-2 border border-gray-300 rounded-lg mb-3 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                        >
+                        <button 
+                            type="submit"
+                            id="subscribe-button"
+                            class="w-full bg-gradient-to-r from-blue-600 to-purple-600 text-white px-4 py-2 rounded-lg font-medium hover:from-blue-700 hover:to-purple-700 transition-colors"
+                        >
+                            Subscribe
+                        </button>
+                    </form>
+                    <p id="subscribe-message" class="text-xs mt-3 text-center hidden"></p>
+                </div>
+            </aside>
+
+            <!-- Main Content - Blog Post -->
+            <main class="lg:col-span-6 lg:col-start-4 order-1 lg:order-2">
+                <article>
+                    <a href="index.html" class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors mb-8">
+                        <svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
+                        </svg>
+                        Back to Updates
+                    </a>
+
+                    <h1 class="font-serif text-4xl md:text-5xl font-bold text-gray-800 mb-2">Long Road Ahead</h1>
+                    <p class="text-gray-500 text-lg mb-8">July 23, 2026</p>
+
+                    <div class="bg-white rounded-2xl shadow-lg p-8 md:p-12">
+                        <div class="prose prose-lg max-w-none text-gray-700">
+                <p class="mb-4">
+                    We have officially received our first status update for Micaiah's retinoblastoma. We have been accustomed to receiving either good or neutral news, and this exam was consistent with that. The good news is that Micaiah's right eye is responding excellently to the treatment. The tumor mass has shrunk by about 50%, which he said was a better than average result! He currently gives that eye a greater than 90% chance of a full recovery.
+                </p>
+
+                <p class="mb-4">
+                    The neutral news is that the left eye is still tenuous. Part of the problem with that eye is that the tumors caused the retina to detach from the back of the eye. He said the tumors in that eye shrank as well, but he is still not optimistic the eye can be saved. There are three things he said would put him over the edge to recommend removal of the left eye. 1. If the tumors start to grow again such that they risk spreading to other areas of the body. 2. If Micaiah's left eye starts to hurt him. I don't know what it all entails, but the doctor said if it causes him pain, that necessarily means it has gotten to a point where it is beyond saving. 3. If the retina doesn't reattach to the back wall of the eye. I don't remember the exact explanation, but apparently it would cause problems and he wouldn't be able to see out of the eye anyway. They are not recommending removal yet, but in his words, "it would be miraculous for that eye to be saved."
+                </p>
+
+                <p class="mb-4">
+                    I don't deny the medical reality of Micaiah's situation, but we believe in a God who specializes in miracles. I see this news as no worse than what we've already been dealing with. The right eye has improved, and the left eye has not worsened. One concern is that the first round of treatment is usually the most effective, so we aren't out of the woods with his right eye yet, and his left eye could deteriorate quickly. Still, we are headed in the right direction.
+                </p>
+
+                <div class="my-8">
+                    <img src="images/20260722_135735.jpg" alt="Micaiah offering me some of his recovery snacks" class="w-full md:w-2/5 rounded-xl shadow-lg mx-auto">
+                    <p class="text-sm text-gray-500 mt-2 text-center italic">Micaiah offering me some of his recovery snacks</p>
+                </div>
+
+                <p class="mb-4">
+                    We also received results back from Micaiah's genetic tests. Given the results, the doctor has ruled out any concerns for the rest of our family. The mutated gene that caused Micaiah's retinoblastoma is mosaic, meaning that it appears in some of his cells but not all. Given that information, the doctor said the mutation likely occurred very early in development—probably only one or two days after conception. Though Micaiah's offspring may be at increased risk for this, Elias and Samuel are in the clear.
+                </p>
+
+                <p class="mb-4">
+                    Please join us in praising God for the good news we have received so far, and continue praying that God would do the miraculous for Micaiah's left eye.
+                </p>
+                        </div>
+                    </div>
+                </article>
+            </main>
+
+            <!-- Right Sidebar Column -->
+            <aside class="lg:col-span-2 flex flex-col gap-6 lg:sticky lg:top-6 self-start order-3">
+                <!-- How to Pray -->
+                <div class="bg-gradient-to-r from-amber-50 to-orange-50 rounded-2xl shadow-md p-6 border border-amber-200">
+                    <h3 class="font-serif text-2xl font-bold text-amber-800 mb-4 text-center">How to Pray for Us Right Now</h3>
+                    <ul class="grid grid-cols-1 gap-3 text-gray-700" data-sidebar="pray-list"></ul>
+                </div>
+
+                <!-- How to Give Thanks -->
+                <div class="bg-gradient-to-r from-green-50 to-emerald-50 rounded-2xl shadow-md p-6 border border-green-200">
+                    <h3 class="font-serif text-2xl font-bold text-green-800 mb-4 text-center">How to Give Thanks with Us Right Now</h3>
+                    <ul class="grid grid-cols-1 gap-3 text-gray-700" data-sidebar="thanks-list"></ul>
+                </div>
+            </aside>
+        </div>
+    </div>
+
+    <iframe name="hidden-iframe" style="display:none;"></iframe>
+
+    <script>
+        function handleSubscribe(event) {
+            event.preventDefault();
+            
+            const email = document.getElementById('subscribe-email').value;
+            const button = document.getElementById('subscribe-button');
+            const message = document.getElementById('subscribe-message');
+            
+            button.disabled = true;
+            button.textContent = 'Subscribing...';
+            
+            // Use form submission to avoid CORS issues
+            const form = document.getElementById('subscribe-form');
+            form.submit();
+            
+            // Show success message after a delay
+            setTimeout(() => {
+                message.classList.remove('hidden');
+                message.textContent = 'Successfully subscribed!';
+                message.classList.add('text-green-600');
+                document.getElementById('subscribe-email').value = '';
+                button.disabled = false;
+                button.textContent = 'Subscribe';
+            }, 1000);
+        }
+    </script>
+</body>
+</html>
