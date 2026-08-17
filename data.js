@@ -15,7 +15,7 @@ const siteData = {
       },
       {
         "label": "Chemotherapy Round",
-        "value": "Round 2 (7/14-15 infusions)"
+        "value": "Round 3 (8/10-11 infusions)"
       },
       {
         "label": "Cancer Location",
@@ -27,7 +27,7 @@ const siteData = {
       },
       {
         "label": "Next Appointments",
-        "value": "Labs (7/24-27)"
+        "value": "Labs (8/19-24)"
       }
     ],
     "howToPray": [
@@ -49,6 +49,15 @@ const siteData = {
     ]
   },
   "blogPosts": [
+    {
+      "id": 10,
+      "title": "The Naive and the Miraculous",
+      "date": "August 16, 2026",
+      "excerpt": "Treatment continues apace as Micaiah's body is handling the infusions well. He has very little nausea for the few days after chemo, and his blood counts have been recovering well so far. Elias' simple prayer on a backpacking trip reminded us to pray audaciously to the One who loves to shower us with goodness.",
+      "heroImage": "images/20260810_091005.jpg",
+      "heroImagePosition": "center",
+      "color": "green"
+    },
     {
       "id": 9,
       "title": "Long Road Ahead",
