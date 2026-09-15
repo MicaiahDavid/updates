@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reflections from Jerusha - Micaiah David</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .font-serif {
+            font-family: 'Playfair Display', serif;
+        }
+    </style>
+    <script src="data.js"></script>
+    <script src="load-content.js"></script>
+</head>
+<body class="bg-gradient-to-br from-blue-100 via-pink-50 to-purple-100 min-h-screen">
+
+    <!-- Hero Image -->
+    <section class="relative w-full h-[480px] md:h-[620px] overflow-hidden">
+        <div class="absolute inset-0">
+            <img src="images/1000002522.jpg" alt="Micaiah David" class="w-full h-full object-cover object-[center_40%]">
+            <div class="absolute inset-0 bg-gradient-to-b from-black/40 via-black/20 to-black/50"></div>
+        </div>
+    </section>
+
+    <!-- Main Content Grid -->
+    <div class="max-w-full mx-auto px-2 py-8">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-6">
+            
+            <!-- Left Sidebar - Treatment Milestones -->
+            <aside class="lg:col-span-2 lg:col-start-2 flex flex-col gap-6 lg:sticky lg:top-6 order-2 lg:order-1">
+                <div class="bg-white rounded-2xl shadow-md p-6 border border-gray-200">
+                    <h3 class="font-serif text-xl font-bold text-gray-800 mb-4">Treatment Milestones</h3>
+                    <div class="space-y-3 text-sm text-gray-600" data-sidebar="treatment-milestones"></div>
+                </div>
+
+                <!-- Subscribe Form -->
+                <div class="bg-gradient-to-br from-blue-50 to-purple-50 rounded-2xl shadow-md p-6 border border-blue-200">
+                    <h3 class="font-serif text-xl font-bold text-gray-800 mb-3">Subscribe to Updates</h3>
+                    <p class="text-sm text-gray-600 mb-4">Get email notifications when we post updates about Micaiah.</p>
+                    <form id="subscribe-form" action="https://script.google.com/macros/s/AKfycbwjpkGI8kdrj0TML1uSz70oDpI4uvJyYIlEt2xPhlzBgg_7bZUfzJ-TlZQUUI8tRwDQ/exec" method="POST" target="hidden-iframe" onsubmit="handleSubscribe(event)">
+                        <input 
+                            type="email" 
+                            name="email"
+                            id="subscribe-email"
+                            placeholder="Your email address" 
+                            required
+                            class="w-full px-4 py-2 border border-gray-300 rounded-lg mb-3 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                        >
+                        <button 
+                            type="submit"
+                            id="subscribe-button"
+                            class="w-full bg-gradient-to-r from-blue-600 to-purple-600 text-white px-4 py-2 rounded-lg font-medium hover:from-blue-700 hover:to-purple-700 transition-colors"
+                        >
+                            Subscribe
+                        </button>
+                    </form>
+                    <p id="subscribe-message" class="text-xs mt-3 text-center hidden"></p>
+                </div>
+            </aside>
+
+            <!-- Main Content - Blog Post -->
+            <main class="lg:col-span-6 lg:col-start-4 order-1 lg:order-2">
+                <article>
+                    <a href="index.html" class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors mb-8">
+                        <svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
+                        </svg>
+                        Back to Updates
+                    </a>
+
+                    <h1 class="font-serif text-4xl md:text-5xl font-bold text-gray-800 mb-2">Reflections from Jerusha</h1>
+                    <p class="text-gray-500 text-lg mb-8">September 14, 2026</p>
+
+                    <div class="bg-white rounded-2xl shadow-lg p-8 md:p-12">
+                        <div class="prose prose-lg max-w-none text-gray-700">
+                <p class="mb-4">
+                    We find ourselves in an off-week and with not much that has changed in Micaiah's status and demeanor, so we thought that I might jump in to give some insights from my side of things. Spencer is the better writer between the two of us, and I know that this site has served as a great way for him to process everything as well as give everyone updates, but I will snag one of these posts.
+                </p>
+
+                <p class="mb-4">
+                    Firstly: where we are in the process. We just started round four of chemo last week. Tuesday (tomorrow), we will have labs drawn to check his immunity status in its trajectory of highs and lows and to ensure he doesn't need transfusions. I am grateful and relieved that we have not found ourselves in a situation where transfusions are necessary yet. The next big step is our big eye exam under anesthesia on September 23rd, which will give us an update on how effective the chemo treatments have been, give us another opportunity to perform more direct treatments (like cryotherapy and laser therapy), and give us more insights into the outlook for both eyes/eyesight.
+                </p>
+
+                <p class="mb-4">
+                    As was true for the last eye exam, I find my nerves building as we approach that date. There is something about being in this in-between time that is easier to deal with. There's nothing that can be done in between treatments, and thankfully Micaiah's demeanor hasn't seemed to have changed much, so it somewhat feels like just maintaining the status quo. Part of our goal, after the initial shock of the diagnosis, was to help make sure this would not be all-encompassing and redefining of their childhood, so while it was somewhat our hope to have this feel as much like a normal childhood as possible, it is still strange to be aware of the gravity of the situation while we are giggling and playing together in the living room, dancing to music in the kitchen, and having typical milestones like new words, potty training, and sizing up in clothes. It's a strange tension to hold as the parents. Approaching the time of the eye exam means we will have some answers, and answers can be good or bad. Putting off knowing sounds so nice. Don't look at it and it will go away. Pretending like I don't see anything… like that game you play with kids… if I close my eyes, I can't see you, so you must not be able to see me. Tempting.
+                </p>
+
+                <p class="mb-4">
+                    But the answers won't go away. The reality won't go away. So deal with it we will.
+                </p>
+
+                <p class="mb-4">
+                    I find myself, much of the time, having the scriptures pop into my head like, "For in death there is no remembrance of you; in Sheol who will give you praise?" (Ps. 6:5) "For Sheol does not thank you; death does not praise you; those who go down to the pit do not hope for your faithfulness. The living, the living, he thanks you, as I do this day; the father makes known to the children your faithfulness. The LORD will save me." (Is. 38:18-20a) And, "Or which one of you, if his son asks him for bread, will give him a stone? Or if he asks for a fish, will give him a serpent? If you then, who are evil, know how to give good gifts to your children, how much more will your Father who is in heaven give good things to those who ask him!" (Matt. 7: 9-11)
+                </p>
+
+                <p class="mb-4">
+                    I know that we have scriptural precedent for almost debating with God and pressing to remind him that glory and praise will be due to him given miraculous grace and salvation. While I know that God can work all things toward good, I remind Him how much more it would speak of his greatness to have full recovery and healing. I know that, regardless of the outcome, it will still be a story I can proclaim God's goodness during, but I ask Him that the full healing would be His Will so that I can proclaim that too.
+                </p>
+
+                <p class="mb-4">
+                    At the beginning of this journey, in the middle of us reeling from the news breaking, I was most astounded by the quiet assurance I had that "God is Good." It was a phrase that was so clearly solid and unshakable that it almost seemed audible at times. It kept rearing itself up in my day-to-day life, like an intrusive thought, but it was one that was positive and calming. I was living in a time (and still am) where I am holding "This is really hard" and "God is Good" in tandem. Again… tension.
+                </p>
+
+                <p class="mb-4">
+                    I distinctly remembering being baffled by what the spiritual gift of "faith" was when I first read through those lists as a kid. As time has gone on, however, I have begun to have a quiet appreciation for what I feel I might have in that regard. All throughout the ups and downs of my life (up to and including this), I have blessedly never once doubted the presence or goodness of God. I have had questions of the hows and the whens, but I have felt that quiet reassurance my whole life long. That is not to say I haven't had seasons of life where God has felt far away, but it feels like I am constantly in the eye of a storm. The chaos that surrounds me won't ever touch that core. I suppose this is similar to the distinction between joy and happiness. We, as Christians, have a deep joy that surpasses the temporal nature of happiness. I also know that God gives us a peace that passes all understanding (Phil. 4:7), and I know that partially I have the multitude of prayers from all of you reading this to thank for that. The outpouring of love and support has been reassuring and inspirational: overnight bouquets dropped at our doorstep, meals and gift cards provided, calls and texts checking in, a box of 1,000 paper cranes folded with Bible verses and prayers inside… this is what one could only hope for in the midst of a tragedy, and we feel blessed beyond measure.
+                </p>
+
+                <div class="my-8">
+                    <img src="images/1000002131.jpg" alt="Micaiah with his 1,000 cranes" class="w-full md:w-2/5 rounded-xl shadow-lg mx-auto">
+                    <p class="text-sm text-gray-500 mt-2 text-center italic">Micaiah with his 1,000 cranes</p>
+                </div>
+
+                <p class="mb-4">
+                    That being said, the stress is still very real. I think the hardest thing for me has been to see what it is doing to Spencer. The stress of the treatments adds on top of the existing stressors of the store and the house, and Spencer seems determined to help tackle them all. I saw a Reel somewhere that said, "How do you manage running a business, having kids, cleaning house, etc… I don't. I take turns neglecting each of them." While comical, that seems to be our reality. We don't have the bandwidth to handle taking care of all of these things at the fullness of what they are owed, and the stress of knowing things are being left undone or neglected eats away at both of us, but I fear it hurts Spencer all the more. He feels the need to take care of things and problem solve everything. He is truly amazing, too. Everything he does, he does extremely well! He learns things and perfects them, whether that be knowing how to order for a grocery delivery at the store, insulating our house for the coming winter, or helping manage a toddler as they are getting their port accessed for chemo treatments.
+                </p>
+
+                <p class="mb-4">
+                    What's challenging for me is trying to figure out how to lessen his load. We both do a lot, and we're both tired. We have to be okay with not being able to do everything in this season of life. In addition to your prayers for Micaiah, (his eyesight, maintaining his eyeballs, and eradicating the cancer from his body), please pray for us, as well: for our energy levels, and for our prioritization and juggling abilities.
+                </p>
+
+                <p class="mb-4">
+                    Saturday, Micaiah turns two years old. I was tempted to make the theme some sort of theme about strength or fighting and overcoming obstacles, but we decided on something else… partially because we aren't out of the woods yet and partially because we don't want this cancer to define his childhood. I look forward to the party I will get to throw him when we get the all clear from the doctors at the end of all this… a small seed of motivation in the back of my head. But this (almost) two-year-old is getting some big personality! He definitely seems to be more gregarious than Elias, and his laugh is such a loud belly laugh that makes you want to join in. He seems to like to ham things up to try to make his big brother laugh. We recently did a seating rearrangement at the dinner table where they are sitting opposite of each other now, and I have some regrets, as the direct eye contact between the two of them seems to have increased the silliness during meals tenfold. It's hard, because another tension we hold is needing to train them to engage in correct and polite behavior, while also remembering what it was like to be a kid and thinking, "that is hilarious" as we see the shenanigans that these two hoodlums get up to. They copy each other, egg each other on, and crack themselves up doing so. There is something so sweet when you hear the boys deviously cackling as they jump on their beds together, or something similarly taboo. So typical childhood right now, as far as day-in and day-out is concerned.
+                </p>
+
+                <p class="mb-4">
+                    Again, I feel so blessed that Micaiah isn't wallowing in misery everyday or during treatments. (That was a fear of mine going into this.) We have had essentially no side effects to speak of… nausea, hair loss, constipation, energy loss (if anything it seems like he has some EXTRA energy), and I am cautiously optimistic that we will continue with that trajectory. He has been eating well and has actually gained weight! Of course, I also have fears that this is lulling me into a false sense of security and then it will all come crashing down soon. But one will drive themselves crazy in the land of "What-ifs," and each day has enough troubles of its own. I will not borrow from tomorrow's. (Matt. 6:34)
+                </p>
+
+                <p class="mb-4">
+                    So I suppose this post is all about tensions.
+                </p>
+
+                <p class="mb-4">
+                    The tension of knowing the gravity of the situation, yet playing and having fun.
+                </p>
+
+                <p class="mb-4">
+                    The tension of living through difficulty, yet affirming God is Good.
+                </p>
+
+                <p class="mb-4">
+                    The tension of being pulled in multiple directions.
+                </p>
+
+                <p class="mb-4">
+                    The tension of parenting and molding our kids, yet allowing space for some transgressions and appreciating the memories our kids are forming together.
+                </p>
+
+                <p class="mb-4">
+                    And the tension of living between treatments and tests.
+                </p>
+
+                <p class="mb-4">
+                    It's a good thing our God is a God who goes with, who pitches His tent with us, who leads us through the wilderness, and who gives us the unique hope that we have as Christians. Thanks for coming along with us on our journey, for reading this far, and for all the prayers. On to the next step!
+                </p>
+
+                <div class="my-8">
+                    <img src="images/1000002509.jpg" alt="Football season has started!" class="w-full md:w-2/5 rounded-xl shadow-lg mx-auto">
+                    <p class="text-sm text-gray-500 mt-2 text-center italic">Football season has started!</p>
+                </div>
+                        </div>
+                    </div>
+                </article>
+            </main>
+
+            <!-- Right Sidebar Column -->
+            <aside class="lg:col-span-2 flex flex-col gap-6 lg:sticky lg:top-6 self-start order-3">
+                <!-- How to Pray -->
+                <div class="bg-gradient-to-r from-amber-50 to-orange-50 rounded-2xl shadow-md p-6 border border-amber-200">
+                    <h3 class="font-serif text-2xl font-bold text-amber-800 mb-4 text-center">How to Pray for Us Right Now</h3>
+                    <ul class="grid grid-cols-1 gap-3 text-gray-700" data-sidebar="pray-list"></ul>
+                </div>
+
+                <!-- How to Give Thanks -->
+                <div class="bg-gradient-to-r from-green-50 to-emerald-50 rounded-2xl shadow-md p-6 border border-green-200">
+                    <h3 class="font-serif text-2xl font-bold text-green-800 mb-4 text-center">How to Give Thanks with Us Right Now</h3>
+                    <ul class="grid grid-cols-1 gap-3 text-gray-700" data-sidebar="thanks-list"></ul>
+                </div>
+            </aside>
+        </div>
+    </div>
+
+    <iframe name="hidden-iframe" style="display:none;"></iframe>
+
+    <script>
+        function handleSubscribe(event) {
+            event.preventDefault();
+            
+            const email = document.getElementById('subscribe-email').value;
+            const button = document.getElementById('subscribe-button');
+            const message = document.getElementById('subscribe-message');
+            
+            button.disabled = true;
+            button.textContent = 'Subscribing...';
+            
+            // Use form submission to avoid CORS issues
+            const form = document.getElementById('subscribe-form');
+            form.submit();
+            
+            // Show success message after a delay
+            setTimeout(() => {
+                message.classList.remove('hidden');
+                message.textContent = 'Successfully subscribed!';
+                message.classList.add('text-green-600');
+                document.getElementById('subscribe-email').value = '';
+                button.disabled = false;
+                button.textContent = 'Subscribe';
+            }, 1000);
+        }
+    </script>
+</body>
+</html>

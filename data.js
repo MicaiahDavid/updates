@@ -3,7 +3,6 @@ const siteData = {
     "title": "Micaiah David",
     "subtitle": "Updates on prognosis, treatments, and prayer requests",
     "shareMessage": "Please feel free to share this page with anyone who would be willing to pray for our boy.",
-    "lastUpdated": "June 24, 2026",
     "heroImage": "images/unnamed.jpg",
     "heroImagePosition": "[23%_43%]"
   },
@@ -15,7 +14,7 @@ const siteData = {
       },
       {
         "label": "Chemotherapy Round",
-        "value": "Round 3 (8/10-11 infusions)"
+        "value": "Round 4 (9/8-9 infusions)"
       },
       {
         "label": "Cancer Location",
@@ -26,13 +25,13 @@ const siteData = {
         "value": "Genetic mutation during embryonic development"
       },
       {
-        "label": "Next Appointments",
-        "value": "Labs (8/19-24)"
+        "label": "Next Exam",
+        "value": "9/23"
       }
     ],
     "howToPray": [
       "That the right eye would continue to improve beyond all expectations",
-      "That the left eye would improve and the retina would reattach to the back wall",
+      "That the left eye would dramatically improve and the retina would reattach to the back wall",
       "Strength and comfort for Micaiah",
       "That Micaiah would stay healthy and avoid nausea",
       "Strength and Understanding for Elias",
@@ -49,6 +48,15 @@ const siteData = {
     ]
   },
   "blogPosts": [
+    {
+      "id": 11,
+      "title": "Reflections from Jerusha",
+      "date": "September 14, 2026",
+      "excerpt": "We find ourselves in an off-week and with not much that has changed in Micaiah's status and demeanor, so I thought I might jump in to give some insights from my side of things. We just started round four of chemo last week, and the next big step is our big eye exam under anesthesia on September 23rd.",
+      "heroImage": "images/1000002522.jpg",
+      "heroImagePosition": "center",
+      "color": "purple"
+    },
     {
       "id": 10,
       "title": "The Naive and the Miraculous",
