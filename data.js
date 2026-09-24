@@ -25,13 +25,13 @@ const siteData = {
         "value": "Genetic mutation during embryonic development"
       },
       {
-        "label": "Next Exam",
-        "value": "9/23"
+        "label": "Next Infusion",
+        "value": "10/5-6"
       }
     ],
     "howToPray": [
-      "That the right eye would continue to improve beyond all expectations",
-      "That the left eye would dramatically improve and the retina would reattach to the back wall",
+      "That both eyes would continue to improve beyond all expectations",
+      "That the left eye would continue to improve and the retina would reattach to the back wall",
       "Strength and comfort for Micaiah",
       "That Micaiah would stay healthy and avoid nausea",
       "Strength and Understanding for Elias",
@@ -40,14 +40,23 @@ const siteData = {
     "howToGiveThanks": [
       "Micaiah's left eye changed color, alerting us to the issue",
       "Micaiah's right eye has responded well to treatment so far",
+      "Micaiah's left eye went from 'It would take a miracle' to 'It has a 60-70% chance of being saved'",
       "Long term effects of treatment should be minimal",
       "Micaiah's genetics resulted from a mutation in embryonic development, so it does not affect the other boys",
       "So far Micaiah has handled chemo like a champ",
-      "Tests have shown no cancer beyond the globes of the eyes",
-      "Easy birth and transition for Samuel",
-    ]
+      "Tests have shown no cancer beyond the globes of the eyes"
+    ],
   },
   "blogPosts": [
+    {
+      "id": 12,
+      "title": "On Our Way",
+      "date": "September 23, 2026",
+      "excerpt": "I sat in the cafeteria, holding back tears. The past few months were exhausting. In my mind, today was the end of the calendar. We would find out more about Micaiah's eyes today. The right eye still has a greater than 90% chance of being saved, and the left eye now has a greater than 50% chance of being saved.",
+      "heroImage": "images/mitene806d64bd-0003-417b-a59a-ff1128782663.jpg",
+      "heroImagePosition": "center",
+      "color": "blue"
+    },
     {
       "id": 11,
       "title": "Reflections from Jerusha",

@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>On Our Way - Micaiah David</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .font-serif {
+            font-family: 'Playfair Display', serif;
+        }
+    </style>
+    <script src="data.js"></script>
+    <script src="load-content.js"></script>
+</head>
+<body class="bg-gradient-to-br from-blue-100 via-pink-50 to-purple-100 min-h-screen">
+
+    <!-- Hero Image -->
+    <section class="relative w-full h-[480px] md:h-[620px] overflow-hidden">
+        <div class="absolute inset-0">
+            <img src="images/mitene806d64bd-0003-417b-a59a-ff1128782663.jpg" alt="Micaiah David" class="w-full h-full object-cover object-[center_25%]">
+            <div class="absolute inset-0 bg-gradient-to-b from-black/40 via-black/20 to-black/50"></div>
+        </div>
+    </section>
+
+    <!-- Main Content Grid -->
+    <div class="max-w-full mx-auto px-2 py-8">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-6">
+            
+            <!-- Left Sidebar - Treatment Milestones -->
+            <aside class="lg:col-span-2 lg:col-start-2 flex flex-col gap-6 lg:sticky lg:top-6 order-2 lg:order-1">
+                <div class="bg-white rounded-2xl shadow-md p-6 border border-gray-200">
+                    <h3 class="font-serif text-xl font-bold text-gray-800 mb-4">Treatment Milestones</h3>
+                    <div class="space-y-3 text-sm text-gray-600" data-sidebar="treatment-milestones"></div>
+                </div>
+
+                <!-- Subscribe Form -->
+                <div class="bg-gradient-to-br from-blue-50 to-purple-50 rounded-2xl shadow-md p-6 border border-blue-200">
+                    <h3 class="font-serif text-xl font-bold text-gray-800 mb-3">Subscribe to Updates</h3>
+                    <p class="text-sm text-gray-600 mb-4">Get email notifications when we post updates about Micaiah.</p>
+                    <form id="subscribe-form" action="https://script.google.com/macros/s/AKfycbwjpkGI8kdrj0TML1uSz70oDpI4uvJyYIlEt2xPhlzBgg_7bZUfzJ-TlZQUUI8tRwDQ/exec" method="POST" target="hidden-iframe" onsubmit="handleSubscribe(event)">
+                        <input 
+                            type="email" 
+                            name="email"
+                            id="subscribe-email"
+                            placeholder="Your email address" 
+                            required
+                            class="w-full px-4 py-2 border border-gray-300 rounded-lg mb-3 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                        >
+                        <button 
+                            type="submit"
+                            id="subscribe-button"
+                            class="w-full bg-gradient-to-r from-blue-600 to-purple-600 text-white px-4 py-2 rounded-lg font-medium hover:from-blue-700 hover:to-purple-700 transition-colors"
+                        >
+                            Subscribe
+                        </button>
+                    </form>
+                    <p id="subscribe-message" class="text-xs mt-3 text-center hidden"></p>
+                </div>
+            </aside>
+
+            <!-- Main Content - Blog Post -->
+            <main class="lg:col-span-6 lg:col-start-4 order-1 lg:order-2">
+                <article>
+                    <a href="index.html" class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors mb-8">
+                        <svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
+                        </svg>
+                        Back to Updates
+                    </a>
+
+                    <h1 class="font-serif text-4xl md:text-5xl font-bold text-gray-800 mb-2">On Our Way</h1>
+                    <p class="text-gray-500 text-lg mb-8">September 23, 2026</p>
+
+                    <div class="bg-white rounded-2xl shadow-lg p-8 md:p-12">
+                        <div class="prose prose-lg max-w-none text-gray-700">
+                <p class="mb-4">
+                    I sat in the cafeteria, holding back tears. The past few months were exhausting. In my mind, today was the end of the calendar. We would find out more about Micaiah's eyes today. While they examine his eyes, we sit for lunch and wait. Our strategy through the past several months of refusing to let fears of possible catastrophic outcomes steal our joy in the moment has been so helpful. It has allowed us to enjoy our time with the boys—to be present and attentive parents. But the fear came crashing down on me today.
+                </p>
+
+                <p class="mb-4">
+                    Grief is a morbidly funny thing. Three years of seminary taught me how to listen to people discussing their feelings, reflecting on them in a way that illuminates what is helpful and what is not. I learned how to identify core needs and helped people process questions about God's goodness. The one thing I felt unequipped to handle was the oppressive weight of the stakes of today. I guess that's where courage comes in. It's a developed skill more than an inherent quality. The only thing I could do in response was pray, "I believe; help my unbelief."
+                </p>
+
+                <p class="mb-4">
+                    It was a bit more of a struggle to get Micaiah under anesthesia this time. He was scared when we put a gown on him, scared when I put a gown on myself to take him to the operating room, and scared when we started to untie his gown. Thankfully, Hot Wheels are therapeutic. His death grip on those seems to be what got him through it.
+                </p>
+
+                <div class="my-8">
+                    <img src="images/mitene8d035e7b-e40f-4bc0-b8aa-097b2e67225a.jpg" alt="Even Hot Wheels sound tasty when you've been fasting" class="w-full md:w-2/5 rounded-xl shadow-lg mx-auto">
+                    <p class="text-sm text-gray-500 mt-2 text-center italic">Even Hot Wheels sound tasty when you've been fasting</p>
+                </div>
+
+                <p class="mb-4">
+                    As we waited in the cafeteria, Jerusha caught me getting misty-eyed. I think I'm allowed to do that under the circumstances, so I'll hold on to my man card for now. As we were laughing about it, a text alert came in, saying they were done with the procedure. It seemed faster than last time. What did that mean? Did they treat the right eye, then look at the left eye and decide not to perform any therapy because it was beyond saving? Why was it so fast? The fears swirled in my mind as we packed ourselves up to meet with the doctor.
+                </p>
+
+                <p class="mb-4">
+                    As it turns out, time seems to go faster when your toddler is at a friend's house rather than in a waiting room with nothing to do. They had examined his eyes and performed laser therapy and cryotherapy on both eyes. When we asked for a status update, the doctor said that the right eye still has a greater than 90% chance of being saved. The left eye, about which he said last time, "It would be miraculous if we could save it," now has a greater than 50% chance of being saved—possibly even 60-70%. The tumors and swelling that had displaced the retina in that eye have improved dramatically. All the tumors have shrunk by another 50%, meaning they have now shrunk 75% from the beginning of treatment.
+                </p>
+
+                <p class="mb-4">
+                    Micaiah is progressing far beyond the doctor's expectations (he used those exact words), and the left eye's improvement was genuinely shocking to him. Of course, neither eye is safe yet, but one might say we are well on our way to the miraculous. As Jerusha went back to be with Micaiah when he woke up, I sat in the waiting room with Samuel. Instead of getting misty-eyed out of fear, I had a good snotty-cry session. It wasn't quite to the level of an ugly cry, but I do hereby surrender my man card. Must have been the super spicy food hospital cafeterias are known for.
+                </p>
+
+                <p class="mb-4">
+                    As of now, they are recommending one more round of intravenous chemotherapy, then shifting to intra-arterial and intravitreal chemotherapy. Intra-arterial therapy will involve using a catheter from his leg to travel all the way up to the ocular artery to give higher doses of chemo more locally. The intravitreal therapy involves putting a dosage of chemo directly into the eyes to address any retinoblastoma cells remaining in there.
+                </p>
+
+                <p class="mb-4">
+                    After today's treatment, Micaiah was very sleepy and his eyes swollen from the cryotherapy. In addition to all the amazing prayers you are offering for Micaiah, please pray that he would recover well over the next few days. Please also join us in giving thanks to God for the work He has done in Micaiah's eyes. We still have a long way to go, but the road is paved with God's palpable mercies.
+                </p>
+
+                <div class="my-8">
+                    <img src="images/20260923_131824.jpg" alt="Waking up is hard" class="w-full md:w-2/5 rounded-xl shadow-lg mx-auto">
+                    <p class="text-sm text-gray-500 mt-2 text-center italic">Waking up is hard</p>
+                </div>
+                        </div>
+                    </div>
+                </article>
+            </main>
+
+            <!-- Right Sidebar Column -->
+            <aside class="lg:col-span-2 flex flex-col gap-6 lg:sticky lg:top-6 self-start order-3">
+                <!-- How to Pray -->
+                <div class="bg-gradient-to-r from-amber-50 to-orange-50 rounded-2xl shadow-md p-6 border border-amber-200">
+                    <h3 class="font-serif text-2xl font-bold text-amber-800 mb-4 text-center">How to Pray for Us Right Now</h3>
+                    <ul class="grid grid-cols-1 gap-3 text-gray-700" data-sidebar="pray-list"></ul>
+                </div>
+
+                <!-- How to Give Thanks -->
+                <div class="bg-gradient-to-r from-green-50 to-emerald-50 rounded-2xl shadow-md p-6 border border-green-200">
+                    <h3 class="font-serif text-2xl font-bold text-green-800 mb-4 text-center">How to Give Thanks with Us Right Now</h3>
+                    <ul class="grid grid-cols-1 gap-3 text-gray-700" data-sidebar="thanks-list"></ul>
+                </div>
+            </aside>
+        </div>
+    </div>
+
+    <iframe name="hidden-iframe" style="display:none;"></iframe>
+
+    <script>
+        function handleSubscribe(event) {
+            event.preventDefault();
+            
+            const email = document.getElementById('subscribe-email').value;
+            const button = document.getElementById('subscribe-button');
+            const message = document.getElementById('subscribe-message');
+            
+            button.disabled = true;
+            button.textContent = 'Subscribing...';
+            
+            // Use form submission to avoid CORS issues
+            const form = document.getElementById('subscribe-form');
+            form.submit();
+            
+            // Show success message after a delay
+            setTimeout(() => {
+                message.classList.remove('hidden');
+                message.textContent = 'Successfully subscribed!';
+                message.classList.add('text-green-600');
+                document.getElementById('subscribe-email').value = '';
+                button.disabled = false;
+                button.textContent = 'Subscribe';
+            }, 1000);
+        }
+    </script>
+</body>
+</html>
