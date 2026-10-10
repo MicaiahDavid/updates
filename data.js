@@ -14,7 +14,7 @@ const siteData = {
       },
       {
         "label": "Chemotherapy Round",
-        "value": "Round 4 (9/8-9 infusions)"
+        "value": "Round 5 (10/5-6 infusions)"
       },
       {
         "label": "Cancer Location",
@@ -25,15 +25,15 @@ const siteData = {
         "value": "Genetic mutation during embryonic development"
       },
       {
-        "label": "Next Infusion",
-        "value": "10/5-6"
+        "label": "Next Appointments",
+        "value": "10/28 (Eye Exam) & 10/30 (MRI)"
       }
     ],
     "howToPray": [
       "That both eyes would continue to improve beyond all expectations",
       "That the left eye would continue to improve and the retina would reattach to the back wall",
       "Strength and comfort for Micaiah",
-      "That Micaiah would stay healthy and avoid nausea",
+      "That Micaiah would stay healthy during his new treatments",
       "Strength and Understanding for Elias",
       "Strength for our family"
     ],
@@ -48,6 +48,15 @@ const siteData = {
     ],
   },
   "blogPosts": [
+    {
+      "id": 13,
+      "title": "On Schedule",
+      "date": "October 10, 2026",
+      "excerpt": "Cruising down the freeway much faster than I normally would, I blew past a highway patrolman. I hoped he wouldn't stop me, but not because I was afraid of a ticket. Over and over, the doctors have told us over the past 4 months that Micaiah getting any kind of a fever should be treated as a medical emergency. He measured at 101, and the guidelines they gave us said that would officially qualify as a fever, requiring medical attention.",
+      "heroImage": "images/1000015209.jpg",
+      "heroImagePosition": "center",
+      "color": "blue"
+    },
     {
       "id": 12,
       "title": "On Our Way",
