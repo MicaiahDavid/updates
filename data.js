@@ -14,7 +14,7 @@ const siteData = {
       },
       {
         "label": "Chemotherapy Round",
-        "value": "Round 5 (10/5-6 infusions)"
+        "value": "Intra-arterial treatment begins 11/6"
       },
       {
         "label": "Cancer Location",
@@ -26,21 +26,21 @@ const siteData = {
       },
       {
         "label": "Next Appointments",
-        "value": "10/28 (Eye Exam) & 10/30 (MRI)"
+        "value": "10/30 (MRI)"
       }
     ],
     "howToPray": [
-      "That both eyes would continue to improve beyond all expectations",
-      "That the left eye would continue to improve and the retina would reattach to the back wall",
+      "That the tumors in Micaiah's right eye would continue to shrink",
+      "Complete restoration of vision in both eyes",
+      "That Micaiah would handle the intra-arterial treatment well",
       "Strength and comfort for Micaiah",
-      "That Micaiah would stay healthy during his new treatments",
       "Strength and Understanding for Elias",
       "Strength for our family"
     ],
     "howToGiveThanks": [
       "Micaiah's left eye changed color, alerting us to the issue",
       "Micaiah's right eye has responded well to treatment so far",
-      "Micaiah's left eye went from 'It would take a miracle' to 'It has a 60-70% chance of being saved'",
+      "Micaiah's left eye can be saved",
       "Long term effects of treatment should be minimal",
       "Micaiah's genetics resulted from a mutation in embryonic development, so it does not affect the other boys",
       "So far Micaiah has handled chemo like a champ",
@@ -48,6 +48,15 @@ const siteData = {
     ],
   },
   "blogPosts": [
+    {
+      "id": 14,
+      "title": "Eye",
+      "date": "October 28, 2026",
+      "excerpt": "Micaiah and I sat down while they circled around us. Some of the men from our church met at our house to pray for Micaiah. We had met once after the initial diagnosis, but since it was a late night and Micaiah had already gone to bed, I was there alone to represent our family. This time we met at our house so we could pray over Micaiah directly.",
+      "heroImage": "images/20261023_135316(0).jpg",
+      "heroImagePosition": "center",
+      "color": "blue"
+    },
     {
       "id": 13,
       "title": "On Schedule",

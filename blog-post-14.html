@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eye - Micaiah David</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .font-serif {
+            font-family: 'Playfair Display', serif;
+        }
+    </style>
+    <script src="data.js"></script>
+    <script src="load-content.js"></script>
+</head>
+<body class="bg-gradient-to-br from-blue-100 via-pink-50 to-purple-100 min-h-screen">
+
+    <!-- Hero Image -->
+    <section class="relative w-full h-[480px] md:h-[620px] overflow-hidden">
+        <div class="absolute inset-0">
+            <img src="images/20261023_135316(0).jpg" alt="Micaiah David" class="w-full h-full object-cover object-[center_40%]">
+            <div class="absolute inset-0 bg-gradient-to-b from-black/40 via-black/20 to-black/50"></div>
+        </div>
+    </section>
+
+    <!-- Main Content Grid -->
+    <div class="max-w-full mx-auto px-2 py-8">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-6">
+            
+            <!-- Left Sidebar - Treatment Quick Facts -->
+            <aside class="lg:col-span-2 lg:col-start-2 flex flex-col gap-6 lg:sticky lg:top-6 order-2 lg:order-1">
+                <div class="bg-white rounded-2xl shadow-md p-6 border border-gray-200">
+                    <h3 class="font-serif text-xl font-bold text-gray-800 mb-4">Treatment Quick Facts</h3>
+                    <div class="space-y-3 text-sm text-gray-600" data-sidebar="treatment-milestones"></div>
+                </div>
+
+                <!-- Subscribe Form -->
+                <div class="bg-gradient-to-br from-blue-50 to-purple-50 rounded-2xl shadow-md p-6 border border-blue-200">
+                    <h3 class="font-serif text-xl font-bold text-gray-800 mb-3">Subscribe to Updates</h3>
+                    <p class="text-sm text-gray-600 mb-4">Get email notifications when we post updates about Micaiah.</p>
+                    <form id="subscribe-form" action="https://script.google.com/macros/s/AKfycbwjpkGI8kdrj0TML1uSz70oDpI4uvJyYIlEt2xPhlzBgg_7bZUfzJ-TlZQUUI8tRwDQ/exec" method="POST" target="hidden-iframe" onsubmit="handleSubscribe(event)">
+                        <input 
+                            type="email" 
+                            name="email"
+                            id="subscribe-email"
+                            placeholder="Your email address" 
+                            required
+                            class="w-full px-4 py-2 border border-gray-300 rounded-lg mb-3 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                        >
+                        <button 
+                            type="submit"
+                            id="subscribe-button"
+                            class="w-full bg-gradient-to-r from-blue-600 to-purple-600 text-white px-4 py-2 rounded-lg font-medium hover:from-blue-700 hover:to-purple-700 transition-colors"
+                        >
+                            Subscribe
+                        </button>
+                    </form>
+                    <p id="subscribe-message" class="text-xs mt-3 text-center hidden"></p>
+                </div>
+            </aside>
+
+            <!-- Main Content - Blog Post -->
+            <main class="lg:col-span-6 lg:col-start-4 order-1 lg:order-2">
+                <article>
+                    <a href="index.html" class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors mb-8">
+                        <svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
+                        </svg>
+                        Back to Updates
+                    </a>
+
+                    <h1 class="font-serif text-4xl md:text-5xl font-bold text-gray-800 mb-2">Eye</h1>
+                    <p class="text-gray-500 text-lg mb-8">October 28, 2026</p>
+
+                    <div class="bg-white rounded-2xl shadow-lg p-8 md:p-12">
+                        <div class="prose prose-lg max-w-none text-gray-700">
+                <p class="mb-4">
+                    Micaiah and I sat down while they circled around us. Some of the men from our church met at our house to pray for Micaiah. We had met once after the initial diagnosis, but since it was a late night and Micaiah had already gone to bed, I was there alone to represent our family. This time we met at our house so we could pray over Micaiah directly. After anointing him, we took turns in prayer. We prayed for positive news for his upcoming eye exam (today, 9/28) and for him to handle the new intra-arterial treatment well. We got Micaiah his Snoopy stuffed animal and his therapy Hot Wheels while we were praying, and he was totally placated until near the end of our prayers. I don't remember who was praying or what was specifically being said at the time, but Micaiah's only interruption was to jerk his hand to his head and say, "eye."
+                </p>
+
+                <p class="mb-4">
+                    When we had finished praying, I gave everyone a recap: One of the conditions the doctor told us would necessitate removing Micaiah's left eye (among others) was if it started to cause him pain. After that exam three months ago (7/22), Jerusha and I both started to notice him rubbing his eye more frequently. Following rule #1 (i.e. that we would not allow anticipatory grief to rob us of the present), we reminded ourselves that any number of things could cause him to rub his eyes and even to favor rubbing the left eye. We recognized that he was rubbing the left eye, but we took solace in the fact that he never seemed to get upset about it. At most, he would say "eye" when he rubbed. No crying, and no rhyme or reason to when he would do it. The next exam came, and we discovered that the it-would-take-a-miracle eye suddenly had a 60-70% chance of surviving. The tumors had reduced significantly, the swelling had gone down, and the retina had started the process of reattaching to the back of the eye.
+                </p>
+
+                <p class="mb-4">
+                    Our fears turned to hope when he would rub his eye. "Maybe the miracle makes him want to rub," we thought. I'm not one who thinks everything is some sort of miraculous sign, but it was not lost on us that Micaiah noticed something about his eye while we were praying.
+                </p>
+
+                <div class="my-8">
+                    <img src="images/20261028_105905.jpg" alt="Micaiah and Snoopy are taking their vitals together" class="w-full md:w-2/5 rounded-xl shadow-lg mx-auto">
+                    <p class="text-sm text-gray-500 mt-2 text-center italic">Micaiah and Snoopy are taking their vitals together</p>
+                </div>
+
+                <p class="mb-4">
+                    When the doctors were wrapping up with Micaiah's procedure, we were called into a conference room for a consult. Like every other time he had gotten an eye exam, we checked in with the front desk, and they assigned us a consult area. Most of the consult areas are basically constructed cubicles. There's not a ton of privacy, but it does a pretty good job of giving a family and their doctor some dedicated space to talk. Two of the consult areas, however, are private rooms. The only time we were assigned a private room was when we were first given the news of Micaiah's diagnosis. When they assigned us to a private room again today, Jerusha and I became apprehensive. Did the left eye get worse? Did we take a miracle for granted? What kind of bad news were we about to get?
+                </p>
+
+                <p class="mb-4">
+                    Jerusha and I prayed one last time before the doctor came in. We've been explicit from the beginning that Micaiah's fate is in God's hands and that we will trust Him no matter the outcome. In an effort to bear our suffering righteously, we took to Job for guidance: "Shall we receive good from God and not receive evil?" (Job 2:10; NRSV). No, even if our hearts would break in two, we would be faithful to the One in whom we live and move and have our being. We prayed that God's will would be done, but that the news we were about to receive would become yet another opportunity for us to glorify Him.
+                </p>
+
+                <p class="mb-4">
+                    The doctor walked in and sat down. He pulled his mask off, grinned, and gave us a thumbs-up, saying, "Everything is looking really good." The right eye still has some tumor activity, but it had reduced another 10% or so. He expects the intra-arterial treatment to start taking bigger chunks out of it again. The left eye has no tumor activity, meaning the masses are basically gone. There are still some tumor cells in the vitreous fluid, but there are no more tumors attached to the left retina. Furthermore, the swelling has gone, and the retina has reattached to the back wall of the eye!
+                </p>
+
+                <p class="mb-4">
+                    It is not lost on us that our focused prayers have attended primarily to the left eye, and it has had a drastic turnaround, outpacing even the right eye. He still has severely reduced vision in his left eye, but it sounds like he will get to keep it, giving him some degree of eyesight (maybe depth perception, shadow vision, or peripheral vision) even if its standard vision is compromised. We continue to pray for the tumors in his right eye to shrink and die. Emboldened by the miraculous things we've seen so far, we also pray for the impossible: Complete restoration of vision and a correction of his genetics. Our God created Micaiah perfectly. That makes Him the ideal candidate to heal Micaiah as well.
+                </p>
+
+                <p class="mb-4">
+                    We have an MRI on Friday (10/30) to check for any signs of spread. Then intra-arterial treatment begins the following week (11/6). Thank you all for your continued prayers. We can feel their impact, and—apparently—so can Micaiah.
+                </p>
+                        </div>
+                    </div>
+                </article>
+            </main>
+
+            <!-- Right Sidebar Column -->
+            <aside class="lg:col-span-2 flex flex-col gap-6 lg:sticky lg:top-6 self-start order-3">
+                <!-- How to Pray -->
+                <div class="bg-gradient-to-r from-amber-50 to-orange-50 rounded-2xl shadow-md p-6 border border-amber-200">
+                    <h3 class="font-serif text-2xl font-bold text-amber-800 mb-4 text-center">How to Pray for Us Right Now</h3>
+                    <ul class="grid grid-cols-1 gap-3 text-gray-700" data-sidebar="pray-list"></ul>
+                </div>
+
+                <!-- How to Give Thanks -->
+                <div class="bg-gradient-to-r from-green-50 to-emerald-50 rounded-2xl shadow-md p-6 border border-green-200">
+                    <h3 class="font-serif text-2xl font-bold text-green-800 mb-4 text-center">How to Give Thanks with Us Right Now</h3>
+                    <ul class="grid grid-cols-1 gap-3 text-gray-700" data-sidebar="thanks-list"></ul>
+                </div>
+            </aside>
+        </div>
+    </div>
+
+    <iframe name="hidden-iframe" style="display:none;"></iframe>
+
+    <script>
+        function handleSubscribe(event) {
+            event.preventDefault();
+            
+            const email = document.getElementById('subscribe-email').value;
+            const button = document.getElementById('subscribe-button');
+            const message = document.getElementById('subscribe-message');
+            
+            button.disabled = true;
+            button.textContent = 'Subscribing...';
+            
+            // Use form submission to avoid CORS issues
+            const form = document.getElementById('subscribe-form');
+            form.submit();
+            
+            // Show success message after a delay
+            setTimeout(() => {
+                message.classList.remove('hidden');
+                message.textContent = 'Successfully subscribed!';
+                message.classList.add('text-green-600');
+                document.getElementById('subscribe-email').value = '';
+                button.disabled = false;
+                button.textContent = 'Subscribe';
+            }, 1000);
+        }
+    </script>
+</body>
+</html>
