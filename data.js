@@ -26,7 +26,7 @@ const siteData = {
       },
       {
         "label": "Next Appointments",
-        "value": "10/30 (MRI)"
+        "value": "11/6 (Intra-arterial treatment)"
       }
     ],
     "howToPray": [
@@ -48,6 +48,15 @@ const siteData = {
     ],
   },
   "blogPosts": [
+    {
+      "id": 15,
+      "title": "Reflection: God > Death",
+      "date": "November 1, 2026",
+      "excerpt": "This is not a normal update for Micaiah. He continues to do well. Preliminary MRI results look good, and we await the final reading. Otherwise, we are waiting for Micaiah's first intra-arterial infusion on 11/6. Today, though, I wanted to share a reflection on God's goodness that came into relief while trick-or-treating with the kids.",
+      "heroImage": "images/1000015544.jpg",
+      "heroImagePosition": "center",
+      "color": "blue"
+    },
     {
       "id": 14,
       "title": "Eye",
